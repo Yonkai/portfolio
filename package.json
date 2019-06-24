@@ -4,8 +4,16 @@
   "description": "Repository for my personal website/portfolio.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+      "dev": "next",
+      "build": "next build",
+      "start": "next start"
   },
   "author": "Frank Lawrence Gunsch",
-  "license": "ISC"
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
 }
