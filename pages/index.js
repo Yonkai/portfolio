@@ -1,5 +1,9 @@
-function Home () {
-  return <div>Welcome to Next.js!</div>
-}
+import NavMenu from '../components/NavMenu.js'
 
-export default Home
+const Index = () => (
+  <>
+    <NavMenu />
+  </>
+)
+
+export default Index
