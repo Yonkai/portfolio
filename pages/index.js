@@ -8,14 +8,7 @@ const Index = () => (
       {`
         body{
           margin:0;
-        }
-        .test{
-          height:1000px;
-          width:100px;
-          background-color:red;
-          position:absolute;
-          top:100px;
-          z-index:-1;
+          background-color:grey;
         }
       `}
     </style>

@@ -21,18 +21,20 @@ class NavMenu extends Component {
           {/* Uncontrolled component because of the form state */}
           <input type='checkbox' id='menu' />
           <label htmlFor='menu'>
-            {/* https://codepen.io/designcouch/pen/Atyop?editors=0100 */}
-            <div id='nav-icon2' className={this.state.menuToggle ? 'open' : 'closed'} onClick={this.toggleMenuBool}>
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
+            <div className='nav-icon2-container'>
+              {/* https://codepen.io/designcouch/pen/Atyop?editors=0100 */}
+              <div id='nav-icon2' className={this.state.menuToggle ? 'open' : 'closed'} onClick={this.toggleMenuBool}>
+                <span />
+                <span />
+                <span />
+                <span />
+                <span />
+                <span />
+              </div>
             </div>
           </label>
           <div className='menu-content'>
-            <ul>
+            <ul className='menu-content-item'>
               <li>
                 <Link href='/'>
                   <a>Home</a>
@@ -67,10 +69,20 @@ class NavMenu extends Component {
                     max-height:0px;
                     overflow:hidden;
                     transition:max-height .5s ease-in-out;
+                    display:flex;
+
+                }
+
+                .menu-content-item{
+                  margin:auto;
+                }
+
+                .menu-content-item li a{
+                  text-align:center;
                 }
         
                 .dropdown-menu{
-                    background:#B0B;
+                    background:#FFF;
                     padding:5px;
                     border-bottom:3px solid #000;
                     box-shadow:1px 2px 3px rbga(0,0,0,0.3);
@@ -95,7 +107,7 @@ class NavMenu extends Component {
 
                 .dropdown-menu ul li{
                     list-style-type:none;
-                    padding:20px;
+                    padding:10px;
                 }
         
                 input#menu{
@@ -108,11 +120,17 @@ class NavMenu extends Component {
                     transition:max-height .5s ease-in-out;
                 }
 
+                .nav-icon2-container{
+                  display:flex;
+                  margin-top:10px;
+                  margin-bottom:30px;
+                }
+
                 #nav-icon2 {
                     width: 60px;
                     height: 45px;
                     position: relative;
-                    margin:20px;
+                    margin:auto;
                     -webkit-transform: rotate(0deg);
                     -moz-transform: rotate(0deg);
                     -o-transform: rotate(0deg);
@@ -123,13 +141,14 @@ class NavMenu extends Component {
                     transition: .5s ease-in-out;
                     cursor: pointer;
                   }
+
                 
                 #nav-icon2 span {
                   display: block;
                   position: absolute;
                   height: 9px;
                   width: 50%;
-                  background: #d3531a;
+                  background: #000000;
                   opacity: 1;
                   -webkit-transform: rotate(0deg);
                   -moz-transform: rotate(0deg);
