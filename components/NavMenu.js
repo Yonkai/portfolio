@@ -5,7 +5,7 @@ class NavMenu extends Component {
   constructor (props) {
     super(props)
     this.toggleMenuBool = this.toggleMenuBool.bind(this)
-    this.state = { menuToggle: false }
+    this.state = { menuToggle: true }
   }
 
   toggleMenuBool () {
@@ -16,14 +16,14 @@ class NavMenu extends Component {
   render () {
     return (
 
-      <div>
+      <nav className='nav-container'>
         <nav className='dropdown-menu'>
           {/* Uncontrolled component because of the form state */}
           <input type='checkbox' id='menu' />
           <label htmlFor='menu'>
             <div className='nav-icon2-container'>
               {/* https://codepen.io/designcouch/pen/Atyop?editors=0100 */}
-              <div id='nav-icon2' className={this.state.menuToggle ? 'open' : 'closed'} onClick={this.toggleMenuBool}>
+              <div id='nav-icon2' className={this.state.menuToggle ? 'closed' : 'open'} onClick={this.toggleMenuBool}>
                 <span />
                 <span />
                 <span />
@@ -68,7 +68,7 @@ class NavMenu extends Component {
                 .menu-content{
                     max-height:0px;
                     overflow:hidden;
-                    transition:max-height .5s ease-in-out;
+                    transition:max-height .25s ease-in-out;
                     display:flex;
 
                 }
@@ -117,7 +117,7 @@ class NavMenu extends Component {
         
                 input:checked ~ .menu-content{
                     max-height:400px;
-                    transition:max-height .5s ease-in-out;
+                    transition:max-height .25s ease-in-out;
                 }
 
                 .nav-icon2-container{
@@ -154,10 +154,10 @@ class NavMenu extends Component {
                   -moz-transform: rotate(0deg);
                   -o-transform: rotate(0deg);
                   transform: rotate(0deg);
-                  -webkit-transition: .25s ease-in-out;
-                  -moz-transition: .25s ease-in-out;
-                  -o-transition: .25s ease-in-out;
-                  transition: .25s ease-in-out;
+                  -webkit-transition: .5s ease-in-out;
+                  -moz-transition: .5s ease-in-out;
+                  -o-transition: .5s ease-in-out;
+                  transition: .5s ease-in-out;
                 }
                 
                 #nav-icon2 span:nth-child(even) {
@@ -229,7 +229,7 @@ class NavMenu extends Component {
 
                 `
         }</style>
-      </div>
+      </nav>
     )
   }
 }
