@@ -97,7 +97,8 @@ class NavMenu extends Component {
                     display:block;
                     padding:10px;
                     text-decoration:none;
-                    color:#000;
+                    color:#033;
+                    font-weight:300;
                 }
         
                 .dropdown-menu label{
@@ -148,7 +149,7 @@ class NavMenu extends Component {
                   position: absolute;
                   height: 9px;
                   width: 50%;
-                  background: #000000;
+                  background: #022;
                   opacity: 1;
                   -webkit-transform: rotate(0deg);
                   -moz-transform: rotate(0deg);
