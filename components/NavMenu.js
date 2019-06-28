@@ -64,13 +64,18 @@ class NavMenu extends Component {
                     font-size:20px;
                     font-family:arial;
                 }
-        
+
+                .nav-container{
+                  position:absolute;
+                  z-index:10;
+                  width:100%;
+                }
+
                 .menu-content{
                     max-height:0px;
                     overflow:hidden;
                     transition:max-height .25s ease-in-out;
                     display:flex;
-
                 }
 
                 .menu-content-item{

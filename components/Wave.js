@@ -105,13 +105,13 @@ const Wave = () => {
       <style jsx>{`
 
             .wave-container{
-            position:absolute;
-            top:100px;
-            z-index:-1;
-            width:99%;
-            height:33%;
-            margin-top:5px;
-            margin-bottom:10px;            
+                position:absolute;
+                top:100px;
+                z-index:-1;
+                width:99%;
+                height:33%;
+                margin-top:5px;
+                margin-bottom:10px;            
             }
 
             .block_1 {
