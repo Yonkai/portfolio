@@ -8,6 +8,8 @@ const Index = () => (
   <>
     <Head>
       <title>Frank Gunsch</title>
+      <meta name='description' content='Frank Gunsch&apos;s Website; here you can find a selection of my web dev
+       stuff and other content.' />
     </Head>
     <NavMenu />
     <Wave />
