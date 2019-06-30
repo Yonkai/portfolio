@@ -9,6 +9,8 @@ const SimpleIntroCard = () => {
                 height:400px;
                 border:solid rgba(0,0,0,0.3) 5px;
                 background-color:rgba(30,0,0,0.2);
+                border-left:solid black 20px;
+                border-right:solid black 20px;
               }
               h1{
                 margin-top:120px;

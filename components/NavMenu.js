@@ -21,9 +21,9 @@ class NavMenu extends Component {
           {/* Uncontrolled component because of the form state */}
           <input type='checkbox' id='menu' />
           <label htmlFor='menu'>
-            <div className='nav-icon2-container'>
+            <div onClick={this.toggleMenuBool} className='nav-icon2-container'>
               {/* https://codepen.io/designcouch/pen/Atyop?editors=0100 */}
-              <div id='nav-icon2' className={this.state.menuToggle ? 'closed' : 'open'} onClick={this.toggleMenuBool}>
+              <div id='nav-icon2' className={this.state.menuToggle ? 'closed' : 'open'}>
                 <span />
                 <span />
                 <span />
@@ -128,8 +128,8 @@ class NavMenu extends Component {
 
                 .nav-icon2-container{
                   display:flex;
-                  margin-top:10px;
-                  margin-bottom:30px;
+                  margin-top:5px;
+                  margin-bottom:15px;
                 }
 
                 #nav-icon2 {

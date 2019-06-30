@@ -106,7 +106,7 @@ const Wave = () => {
 
             .wave-container{
                 position:absolute;
-                top:100px;
+                top:70px;
                 z-index:-1;
                 width:99%;
                 height:33%;
@@ -124,7 +124,6 @@ const Wave = () => {
                 top: 25px;
                 width: 1%;
                 height: 25px;
-                display:none;
             }
             
             .block_2 {
@@ -1313,7 +1312,7 @@ const Wave = () => {
                 top: 25px;
                 width: 1%;
                 height: 25px;
-                display:none;
+                
             }
           
           @keyframes wave {

@@ -1,13 +1,14 @@
 import NavMenu from '../components/NavMenu.js'
 import Wave from '../components/Wave.js'
 import SimpleIntroCard from '../components/SimpleIntroCard'
+import ExtendedIntroCard from '../components/ExtendedIntroCard'
 
 const Index = () => (
   <>
     <NavMenu />
     <Wave />
     <SimpleIntroCard />
-    <div className='returned-flow' />
+    <ExtendedIntroCard />
 
     <style global jsx>
       {`
@@ -16,17 +17,11 @@ const Index = () => (
           // Forest theme
           background-color:#011;
         }
-      
-        .returned-flow{
-          box-sizing:border-box;
-          width:100%;
-          height:200px;
-          border:solid green 5px;
-          background-color:white;
-        }
       `}
     </style>
   </>
 )
 
 export default Index
+
+// Query data information for seasons based themeing
