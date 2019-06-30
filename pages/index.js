@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import NavMenu from '../components/NavMenu.js'
 import Wave from '../components/Wave.js'
 import SimpleIntroCard from '../components/SimpleIntroCard'
@@ -5,6 +6,9 @@ import ExtendedIntroCard from '../components/ExtendedIntroCard'
 
 const Index = () => (
   <>
+    <Head>
+      <title>Frank Gunsch</title>
+    </Head>
     <NavMenu />
     <Wave />
     <SimpleIntroCard />

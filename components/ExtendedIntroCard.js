@@ -5,7 +5,7 @@ const ExtendedIntroCard = () => {
     <section className='extended-intro-card'>
       <p>
       Hey there! I'm Frank Gunsch, a Web Developer and person with other
-      passions like walking and making memes. Welcome to my little corner
+      passions like walking, fishing, and making memes. Welcome to my little corner
       of the internet, please make yourself comfortable ☕☕☕.
       </p>
       <p>

@@ -1,7 +1,7 @@
 const SimpleIntroCard = () => {
   return (
     <div className='faking-normal-flow'>
-      <h1>Hello! I'm Frank, A full stack  developer from New York.</h1>
+      <h1>Hello! I'm Frank, A full stack developer from New York.</h1>
       <style jsx>{`
               .faking-normal-flow{
                 box-sizing:border-box;
