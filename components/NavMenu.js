@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import React, { Component } from 'react'
 
+// BUG: If you go click a link from the navigator drop down and go back the icon displays the wrong position
 class NavMenu extends Component {
   constructor (props) {
     super(props)

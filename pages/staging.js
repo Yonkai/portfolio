@@ -3,7 +3,7 @@ import Head from 'next/head'
 const minor = () => (
   <>
     <Head>
-      <title>Frank Gunsch - Other Stuff</title>
+      <title>Frank Gunsch - Staging - Page for Other Programming Stuff</title>
     </Head>
     <div>minor</div>
   </>

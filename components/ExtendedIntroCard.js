@@ -9,8 +9,8 @@ const ExtendedIntroCard = () => {
       of the internet, please make yourself comfortable ☕☕☕.
       </p>
       <p>
-      Let me give you a tour! In the <Link href='/major' as='/commited'><a>commited section</a></Link> you
-      can see some my more "major" projects. In the <Link href='/minor' as='/staging'><a>staging section</a></Link> you
+      Let me give you a tour! In the <Link href='/commited'><a>commited section</a></Link> you
+      can see some my more "major" projects. In the <Link href='/staging'><a>staging section</a></Link> you
       can find some more minor projects and other interesting stuff.
       </p>
       <p>
