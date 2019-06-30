@@ -1,5 +1,12 @@
+import Head from 'next/head'
+
 const contact = () => (
-  <div>contact</div>
+  <>
+    <Head>
+      <title>Frank Gunsch</title>
+    </Head>
+    <div>contact</div>
+  </>
 )
 
 export default contact

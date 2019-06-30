@@ -1,5 +1,12 @@
+import Head from 'next/head'
+
 const minor = () => (
-  <div>minor</div>
+  <>
+    <Head>
+      <title>Frank Gunsch</title>
+    </Head>
+    <div>minor</div>
+  </>
 )
 
 export default minor
