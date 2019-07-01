@@ -3,7 +3,9 @@ import Head from 'next/head'
 const contact = () => (
   <>
     <Head>
-      <title>Frank Gunsch - Contact</title>
+      <title>Contact</title>
+      <meta name='description' content='Contact me.' />
+
     </Head>
     <div>contact</div>
   </>

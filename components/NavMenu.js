@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React, { Component } from 'react'
 
-// BUG: If you go click a link from the navigator drop down and go back the icon displays the wrong position
+// BUG: Race conditions with state?
 class NavMenu extends Component {
   constructor (props) {
     super(props)
@@ -20,7 +20,7 @@ class NavMenu extends Component {
       <nav className='nav-container'>
         <nav className='dropdown-menu'>
           {/* Uncontrolled component because of the form state */}
-          <input type='checkbox' id='menu' autocomplete='off' />
+          <input type='checkbox' id='menu' autoComplete='off' />
           <label htmlFor='menu'>
             <div onClick={this.toggleMenuBool} className='nav-icon2-container'>
               {/* https://codepen.io/designcouch/pen/Atyop?editors=0100 */}
@@ -42,7 +42,7 @@ class NavMenu extends Component {
                 </Link>
               </li>
               <li>
-                <Link href='/major' as='/commited'>
+                <Link href='/major' as='/committed'>
                   <a>Commited</a>
                 </Link>
               </li>
@@ -62,12 +62,12 @@ class NavMenu extends Component {
         </nav>
         <style jsx>{`
                 nav{
-                    font-size:20px;
-                    font-family:arial;
+                  font-size:20px;
+                  font-family:arial;
                 }
 
                 .nav-container{
-                  position:absolute;
+                  position:fixed;
                   z-index:10;
                   width:100%;
                 }
