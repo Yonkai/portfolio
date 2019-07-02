@@ -10,8 +10,7 @@ import ExtendedIntroCard from '../components/ExtendedIntroCard'
 import MajorProjectHomepageCard from '../components/MajorProjectHomepageCard'
 import TemplatedContainer from '../components/TemplatedContainer'
 import SocialMediaIcons from '../components/SocialMediaIcons'
-import Link from 'next/link'
-
+import ViewMoreHomepageButton from '../components/ViewMoreHomepageButton'
 const Index = () => (
   <>
     <Head>
@@ -28,21 +27,22 @@ const Index = () => (
       title={'Bulletin Board System'}
       description={`An anonymous text board where users can talk about a variety of subjects.`}
       borderColor={'orangered'}
+      skillBadges={['RESTful', 'expressjs', 'mysql', 'javascript', 'cssgrid', 'nextjs', 'nginx', 'ubuntu', 'pm2', 'react']}
     />
     <MajorProjectHomepageCard
       title={'Sorting Algorithm Visualizer'}
       description={'Visualizes sorting algorithms through a color wheel.'}
       borderColor={'orangered'}
+      skillBadges={['html', 'css', 'javascript', 'jquery']}
+
     />
     {/* Pass in icons as child component, render with props.children */}
     <TemplatedContainer borderColor={'orangered'}>
       <SocialMediaIcons />
     </TemplatedContainer>
-    {/* Make a seperate component for view more work button */}
-    <TemplatedContainer>
-      <Link href='/committed'>
-        <a>View More Work</a>
-      </Link>
+    {/* Make a seperate component for view more work button then pass it */}
+    <TemplatedContainer borderColor={'orangered'} padding={'10px'}>
+      <ViewMoreHomepageButton />
     </TemplatedContainer>
     <TemplatedContainer
       text={'Footer'}

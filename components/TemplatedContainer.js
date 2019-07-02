@@ -18,7 +18,7 @@ const TemplateContainer = (props) => {
                     border:solid ${props.borderColor} 5px;
                     background-color:rgb(250,250,250);
                     font-size:18px;
-                    padding:10px;
+                    padding:${props.padding};
                     line-height:1.4;
                     margin:auto;
                     margin-top:10px;
@@ -63,7 +63,8 @@ const TemplateContainer = (props) => {
 }
 
 TemplateContainer.defaultProps = {
-  borderColor: 'red'
+  borderColor: 'red',
+  padding: '10px'
 }
 
 export default TemplateContainer

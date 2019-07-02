@@ -7,13 +7,15 @@ const MajorProjectHomepageCard = (props) => {
         <h2>
           {props.title}
         </h2>
+        {props.skillBadges.map((number, index) => <div key={index} className='skill-badge'>{number}</div>)}
+
         <p>
           {props.description}
         </p>
-        <Link href='github.com'>
+        <Link href='https://www.github.com'>
           <a>View on Github</a>
         </Link>
-        <Link href='github.com'>
+        <Link href='https://www.github.com'>
           <a>View Live Version</a>
         </Link>
 
@@ -60,6 +62,17 @@ const MajorProjectHomepageCard = (props) => {
                 background-size: 200px 0px;
                 background-repeat: repeat-x;
                 text-decoration: none;
+            }
+
+            .skill-badge{
+              background:black;
+              color:white;
+              padding:8px;
+              font-size:12px;
+              border:3px solid green;
+              margin-right:3px;
+              margin-top:3px;
+              display:inline-block;
             }
             
             `}
