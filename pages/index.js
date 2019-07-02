@@ -10,6 +10,7 @@ import ExtendedIntroCard from '../components/ExtendedIntroCard'
 import MajorProjectHomepageCard from '../components/MajorProjectHomepageCard'
 import TemplatedContainer from '../components/TemplatedContainer'
 import SocialMediaIcons from '../components/SocialMediaIcons'
+import Link from 'next/link'
 
 const Index = () => (
   <>
@@ -25,7 +26,7 @@ const Index = () => (
     {/* Change these to templated component with a Major project render prop comp. */}
     <MajorProjectHomepageCard
       title={'Bulletin Board System'}
-      description={`An anonymous text board where users can talk about a variety of subjects`}
+      description={`An anonymous text board where users can talk about a variety of subjects.`}
       borderColor={'orangered'}
     />
     <MajorProjectHomepageCard
@@ -37,10 +38,12 @@ const Index = () => (
     <TemplatedContainer borderColor={'orangered'}>
       <SocialMediaIcons />
     </TemplatedContainer>
-    <TemplatedContainer
-      text={'View More Projects'}
-      borderColor={'orangered'}
-    />
+    {/* Make a seperate component for view more work button */}
+    <TemplatedContainer>
+      <Link href='/committed'>
+        <a>View More Work</a>
+      </Link>
+    </TemplatedContainer>
     <TemplatedContainer
       text={'Footer'}
       borderColor={'orangered'}
@@ -51,7 +54,8 @@ const Index = () => (
           // Forest theme
           background-color:${theme.body.color};
           font-family: 'Anaheim', sans-serif;
-        }`}
+        }
+      `}
     </style>
   </>
 )

@@ -1,4 +1,6 @@
-const ExtendedIntroCard = (props) => {
+import Link from 'next/link'
+
+const MajorProjectHomepageCard = (props) => {
   return (
     <div className='flex-container-major-project-homepage-card'>
       <section className='major-project-homepage-card'>
@@ -8,6 +10,13 @@ const ExtendedIntroCard = (props) => {
         <p>
           {props.description}
         </p>
+        <Link href='github.com'>
+          <a>View on Github</a>
+        </Link>
+        <Link href='github.com'>
+          <a>View Live Version</a>
+        </Link>
+
         <style jsx>
           {`
             .flex-container-major-project-homepage-card{
@@ -42,6 +51,7 @@ const ExtendedIntroCard = (props) => {
                 color: #000;
                 text-decoration: none;
                 transition:background-size .5s;
+                margin-right:15px;
             }
             
             a:hover {
@@ -59,4 +69,4 @@ const ExtendedIntroCard = (props) => {
   )
 }
 
-export default ExtendedIntroCard
+export default MajorProjectHomepageCard
