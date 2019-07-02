@@ -3,6 +3,7 @@ import NavMenu from '../components/NavMenu.js'
 import Wave from '../components/Wave.js'
 import SimpleIntroCard from '../components/SimpleIntroCard'
 import ExtendedIntroCard from '../components/ExtendedIntroCard'
+import theme from '../theme.js'
 
 const Index = () => (
   <>
@@ -17,9 +18,9 @@ const Index = () => (
 
     <style global jsx>
       {`body{
-          margin:0;
+          margin:${theme.body.margin};
           // Forest theme
-          background-color:#011;
+          background-color:${theme.body.color};
         }`}
     </style>
   </>

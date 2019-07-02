@@ -90,7 +90,6 @@ class NavMenu extends Component {
                 .dropdown-menu{
                     background:#FFF;
                     padding:5px;
-                    border-bottom:3px solid #000;
                     box-shadow:1px 2px 3px rbga(0,0,0,0.3);
                 }
         
