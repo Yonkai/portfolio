@@ -1,44 +1,34 @@
-import Link from 'next/link'
-
-const ExtendedIntroCard = () => {
+const ExtendedIntroCard = (props) => {
   return (
-    <div className='flex-container-extended-intro-card'>
-      <section className='extended-intro-card'>
-        <p>
-      Hey there! I'm Frank Gunsch, a Web Developer and person with other
-      interests like walking, fishing, and making memes. Welcome to my little corner
-      of the internet, please make yourself comfortable ☕☕☕.</p>
-        <p>
-      Let me give you a tour! In the <Link href='/committed'><a>committed section</a></Link> you
-      can see some my more "major" projects. In the <Link href='/staging'><a>staging section</a></Link> you
-      can find some more minor projects and other programming stuff.
-        </p>
-        <p>
-      Want to get in touch? See the <Link href='/contact'><a>contact section</a></Link> to send me an email
-      or even send me a letter! (Haha don't actually do that we're in the future now friend.)
-        </p>
+    <div className='flex-container-major-project-homepage-card'>
+      <section className='major-project-homepage-card'>
+        <h2>
+          {props.title}
+        </h2>
         <style jsx>
           {`
-            .flex-container-extended-intro-card{
+            .flex-container-major-project-homepage-card{
               display:flex;
             }
 
-            .extended-intro-card{
+            .major-project-homepage-card{
                 box-sizing:border-box;
                 width:95%;
-                border:solid darkred 5px;
+                border:solid darkgreen 5px;
                 background-color:rgb(250,250,250);
                 font-size:18px;
                 padding:10px;
                 line-height:1.4;
                 margin:auto;
-                margin-top:20px;
-                box-shadow:0px 0px 4px 4px;
+                margin-top:10px;
+            }
 
+            h2{
+              margin: 0;
             }
             
             // inspiration for anchor styling: https://css-tricks.com/having-fun-with-link-hover-effects/
-              a {
+            a {
                 background: linear-gradient(to bottom,#ff990052 0%,#ffedd3 100%);
                 background-position: 0 100%;
                 background-repeat: repeat-x;

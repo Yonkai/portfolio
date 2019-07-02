@@ -15,7 +15,7 @@ const SimpleIntroCard = () => {
               h1{
                 margin-top:120px;
                 font-size:30px;
-                color:white;
+                color:rgb(250,250,250);
                 text-align:center;
               }
               span{
