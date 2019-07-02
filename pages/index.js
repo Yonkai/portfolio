@@ -34,20 +34,15 @@ const Index = () => (
       description={'Visualizes sorting algorithms through a color wheel.'}
       borderColor={'orangered'}
       skillBadges={['html', 'css', 'javascript', 'jquery']}
-
     />
-    {/* Pass in icons as child component, render with props.children */}
-    <TemplatedContainer borderColor={'orangered'}>
-      <SocialMediaIcons />
-    </TemplatedContainer>
     {/* Make a seperate component for view more work button then pass it */}
     <TemplatedContainer borderColor={'orangered'} padding={'10px'}>
       <ViewMoreHomepageButton />
     </TemplatedContainer>
-    <TemplatedContainer
-      text={'Footer'}
-      borderColor={'orangered'}
-    />
+    {/* Pass in icons as child component, render with props.children */}
+    <TemplatedContainer borderColor={'orangered'}>
+      <SocialMediaIcons />
+    </TemplatedContainer>
     <style global jsx>
       {`body{
           margin:${theme.body.margin};

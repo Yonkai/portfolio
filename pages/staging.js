@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import NavMenu from '../components/NavMenu.js'
 import theme from '../theme.js'
+import FakeFlow from '../components/FakeFlow'
 
 const minor = () => (
   <>
@@ -10,6 +11,8 @@ const minor = () => (
     </Head>
     {/* <div>minor</div> */}
     <NavMenu />
+    <FakeFlow />
+    {/* TODO: Hero image background + Form */}
 
     <style global jsx>
       {`body{

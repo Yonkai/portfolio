@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-const ExtendedIntroCard = () => {
+const ExtendedIntroCard = (props) => {
   return (
     <div className='flex-container-extended-intro-card'>
       <section className='extended-intro-card'>
@@ -23,6 +23,10 @@ const ExtendedIntroCard = () => {
               display:flex;
             }
 
+            p{
+              color:black;
+            }
+
             .extended-intro-card{
                 box-sizing:border-box;
                 width:95%;
@@ -34,7 +38,9 @@ const ExtendedIntroCard = () => {
                 margin:auto;
                 margin-top:20px;
                 box-shadow:0px 0px 4px 4px;
-
+                background-image:url('../static/${props.imagePath}');
+                background-size:cover;
+                background-position:center;
             }
             
             // inspiration for anchor styling: https://css-tricks.com/having-fun-with-link-hover-effects/

@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import NavMenu from '../components/NavMenu.js'
 import theme from '../theme.js'
+import FakeFlow from '../components/FakeFlow'
 
 const contact = () => (
   <>
@@ -8,8 +9,8 @@ const contact = () => (
       <title>Contact</title>
       <meta name='description' content='Contact me.' />
     </Head>
-    {/* <div>contact</div> */}
     <NavMenu />
+    <FakeFlow />
 
     <style global jsx>
       {`body{

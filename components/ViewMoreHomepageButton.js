@@ -1,8 +1,12 @@
+import Link from 'next/link'
+
 const ViewMoreButtonHomepage = (props) => {
   return (
     <div className='view-more-button-container'>
       <div className='view-more-button'>
-        <a className='view-more-text'>See More</a>
+        <Link href='/committed'>
+          <a className='view-more-text'>See More</a>
+        </Link>
       </div>
       <style jsx>
         {`.view-more-button{

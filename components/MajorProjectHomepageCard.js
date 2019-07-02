@@ -35,13 +35,18 @@ const MajorProjectHomepageCard = (props) => {
                 line-height:1.4;
                 margin:auto;
                 margin-top:10px;
+                background-image:url('../static/${props.imagePath}');
+                background-size:cover;
+                background-position:top;
             }
 
             h2{
               margin: 0;
+              color:${props.headerColor};
             }
             p{
               margin:5px;
+              color:${props.paragraphColor};
             }
             
             // inspiration for anchor styling: https://css-tricks.com/having-fun-with-link-hover-effects/
@@ -54,6 +59,7 @@ const MajorProjectHomepageCard = (props) => {
                 text-decoration: none;
                 transition:background-size .5s;
                 margin-right:15px;
+                border:3px solid orange;
             }
             
             a:hover {
