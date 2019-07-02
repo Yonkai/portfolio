@@ -5,6 +5,9 @@ const ExtendedIntroCard = (props) => {
         <h2>
           {props.title}
         </h2>
+        <p>
+          {props.description}
+        </p>
         <style jsx>
           {`
             .flex-container-major-project-homepage-card{
@@ -14,7 +17,7 @@ const ExtendedIntroCard = (props) => {
             .major-project-homepage-card{
                 box-sizing:border-box;
                 width:95%;
-                border:solid darkgreen 5px;
+                border:solid ${props.borderColor} 5px;
                 background-color:rgb(250,250,250);
                 font-size:18px;
                 padding:10px;
@@ -25,6 +28,9 @@ const ExtendedIntroCard = (props) => {
 
             h2{
               margin: 0;
+            }
+            p{
+              margin:5px;
             }
             
             // inspiration for anchor styling: https://css-tricks.com/having-fun-with-link-hover-effects/

@@ -23,20 +23,27 @@ const Index = () => (
     <SimpleIntroCard />
     <ExtendedIntroCard />
     {/* Change these to templated component with a Major project render prop comp. */}
-    <MajorProjectHomepageCard title={'Bulletin Board System'} />
-    <MajorProjectHomepageCard title={'Sorting Algorithm Visualizer'} />
-    <MajorProjectHomepageCard title={'Banking Website Clone'} />
+    <MajorProjectHomepageCard
+      title={'Bulletin Board System'}
+      description={`An anonymous text board where users can talk about a variety of subjects`}
+      borderColor={'orangered'}
+    />
+    <MajorProjectHomepageCard
+      title={'Sorting Algorithm Visualizer'}
+      description={'Visualizes sorting algorithms through a color wheel.'}
+      borderColor={'orangered'}
+    />
     {/* Pass in icons as child component, render with props.children */}
-    <TemplatedContainer borderColor={'darkblue'}>
+    <TemplatedContainer borderColor={'orangered'}>
       <SocialMediaIcons />
     </TemplatedContainer>
     <TemplatedContainer
-      text={'View More'}
-      borderColor={'darkred'}
+      text={'View More Projects'}
+      borderColor={'orangered'}
     />
     <TemplatedContainer
       text={'Footer'}
-      borderColor={'darkgreen'}
+      borderColor={'orangered'}
     />
     <style global jsx>
       {`body{

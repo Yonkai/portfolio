@@ -26,7 +26,7 @@ const ExtendedIntroCard = () => {
             .extended-intro-card{
                 box-sizing:border-box;
                 width:95%;
-                border:solid darkred 5px;
+                border:solid orangered 5px;
                 background-color:rgb(250,250,250);
                 font-size:18px;
                 padding:10px;
