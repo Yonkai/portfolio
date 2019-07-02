@@ -1,0 +1,9 @@
+Seasons based UI: Render images and color schemes based on queried
+information from the user or a default select for a specific location.
+Makes the website feel more personal?
+
+Example seasons:
+fall, winter, summer, spring... etc
+
+Sorting feature: Add a sorting feature for the staging section based on
+tags/badges.
