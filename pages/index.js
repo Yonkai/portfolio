@@ -9,6 +9,7 @@ import SimpleIntroCard from '../components/SimpleIntroCard'
 import ExtendedIntroCard from '../components/ExtendedIntroCard'
 import MajorProjectHomepageCard from '../components/MajorProjectHomepageCard'
 import TemplatedContainer from '../components/TemplatedContainer'
+import SocialMediaIcons from '../components/SocialMediaIcons'
 
 const Index = () => (
   <>
@@ -25,10 +26,18 @@ const Index = () => (
     <MajorProjectHomepageCard title={'Bulletin Board System'} />
     <MajorProjectHomepageCard title={'Sorting Algorithm Visualizer'} />
     <MajorProjectHomepageCard title={'Banking Website Clone'} />
-    {/* Pass in icons as comp. through render prop to TemplatedContainer, default to nothing?: */}
-    <TemplatedContainer text={'Social Media Icons'} borderColor={'darkblue'} />
-    <TemplatedContainer text={'View More'} borderColor={'darkred'} />
-    <TemplatedContainer text={'Footer'} borderColor={'darkgreen'} />
+    {/* Pass in icons as child component, render with props.children */}
+    <TemplatedContainer borderColor={'darkblue'}>
+      <SocialMediaIcons />
+    </TemplatedContainer>
+    <TemplatedContainer
+      text={'View More'}
+      borderColor={'darkred'}
+    />
+    <TemplatedContainer
+      text={'Footer'}
+      borderColor={'darkgreen'}
+    />
     <style global jsx>
       {`body{
           margin:${theme.body.margin};

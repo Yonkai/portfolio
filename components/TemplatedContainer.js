@@ -2,9 +2,10 @@ const TemplateContainer = (props) => {
   return (
     <div className='flex-container-templated-container'>
       <section className='templated-container'>
-        <p>
-          {props.text}
-        </p>
+        <div>
+          <p>{props.text}</p>
+          {props.children}
+        </div>
         <style jsx>
           {`
                 .flex-container-templated-container{
