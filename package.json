@@ -14,8 +14,7 @@
   "dependencies": {
     "next": "^8.1.0",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-spring": "^8.0.25"
+    "react-dom": "^16.8.6"
   },
   "devDependencies": {
     "react-social-icons": "^4.1.0",
