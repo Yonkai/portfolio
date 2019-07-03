@@ -46,7 +46,7 @@ const Index = () => (
       title={'Résumé'}
       description={'A brief account of a person’s education, qualifications, and previous experience, typically sent with a job application.'}
       borderColor={'skyblue'}
-      skillBadges={['resume', 'PDF', 'legacy media']}
+      skillBadges={['resume', 'PDF', 'classical media']}
       URLs={['https://github.com/Yonkai/visualized-sorting-algorithms-in-javascript']}
       anchorTexts={['View Resume']}
     />
