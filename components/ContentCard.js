@@ -71,12 +71,13 @@ const ContentCard = (props) => {
             .skill-badge{
               background:black;
               color:white;
-              padding:8px;
-              font-size:12px;
+              padding:5px;
+              font-size:16px;
               border:3px solid green;
               margin-right:3px;
               margin-top:3px;
               display:inline-block;
+              font-variant:small-caps;
             }
             
             `}

@@ -22,6 +22,7 @@ const Index = () => (
     <Wave />
     <SimpleIntroCard />
     <ExtendedIntroCard />
+
     <ContentCard
       title={'Bulletin Board System'}
       description={`An anonymous text board where users can talk about a variety of subjects.`}
@@ -30,6 +31,7 @@ const Index = () => (
       URLs={['https://github.com/Yonkai/BBS', 'https://www.daydreaming.me/']}
       anchorTexts={['View on Github', 'View Live Version']}
     />
+
     <ContentCard
       title={'Sorting Algorithm Visualizer'}
       description={'Visualizes sorting algorithms through a color wheel.'}
@@ -39,6 +41,16 @@ const Index = () => (
         'https://yonkai.github.io/visualized-sorting-algorithms-in-javascript/']}
       anchorTexts={['View on Github', 'View Live Version']}
     />
+
+    <ContentCard
+      title={'Résumé'}
+      description={'A brief account of a person’s education, qualifications, and previous experience, typically sent with a job application.'}
+      borderColor={'skyblue'}
+      skillBadges={['resume', 'PDF', 'legacy media']}
+      URLs={['https://github.com/Yonkai/visualized-sorting-algorithms-in-javascript']}
+      anchorTexts={['View Resume']}
+    />
+
     {/* Make a seperate component for view more work button then pass it */}
     <TemplatedContainer borderColor={'orangered'} padding={'10px'}>
       <ViewMoreHomepageButton />
