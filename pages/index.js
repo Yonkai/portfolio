@@ -7,7 +7,7 @@ import NavMenu from '../components/NavMenu.js'
 import Wave from '../components/Wave.js'
 import SimpleIntroCard from '../components/SimpleIntroCard'
 import ExtendedIntroCard from '../components/ExtendedIntroCard'
-import MajorProjectHomepageCard from '../components/MajorProjectHomepageCard'
+import ContentCard from '../components/ContentCard'
 import TemplatedContainer from '../components/TemplatedContainer'
 import SocialMediaIcons from '../components/SocialMediaIcons'
 import ViewMoreHomepageButton from '../components/ViewMoreHomepageButton'
@@ -22,18 +22,22 @@ const Index = () => (
     <Wave />
     <SimpleIntroCard />
     <ExtendedIntroCard />
-    {/* Change these to templated component with a Major project render prop comp. */}
-    <MajorProjectHomepageCard
+    <ContentCard
       title={'Bulletin Board System'}
       description={`An anonymous text board where users can talk about a variety of subjects.`}
       borderColor={'orangered'}
       skillBadges={['RESTful', 'expressjs', 'mysql', 'javascript', 'cssgrid', 'nextjs', 'nginx', 'ubuntu', 'pm2', 'react']}
+      URLs={['https://github.com/Yonkai/BBS', 'https://www.daydreaming.me/']}
+      anchorTexts={['View on Github', 'View Live Version']}
     />
-    <MajorProjectHomepageCard
+    <ContentCard
       title={'Sorting Algorithm Visualizer'}
       description={'Visualizes sorting algorithms through a color wheel.'}
       borderColor={'orangered'}
       skillBadges={['html', 'css', 'javascript', 'jquery']}
+      URLs={['https://github.com/Yonkai/visualized-sorting-algorithms-in-javascript',
+        'https://yonkai.github.io/visualized-sorting-algorithms-in-javascript/']}
+      anchorTexts={['View on Github', 'View Live Version']}
     />
     {/* Make a seperate component for view more work button then pass it */}
     <TemplatedContainer borderColor={'orangered'} padding={'10px'}>

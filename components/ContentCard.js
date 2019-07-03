@@ -1,31 +1,29 @@
 import Link from 'next/link'
 
-const MajorProjectHomepageCard = (props) => {
+const ContentCard = (props) => {
   return (
-    <div className='flex-container-major-project-homepage-card'>
-      <section className='major-project-homepage-card'>
+    <div className='flex-container-content-card'>
+      <section className='major-content-card'>
         <h2>
           {props.title}
         </h2>
-        {props.skillBadges.map((number, index) => <div key={index} className='skill-badge'>{number}</div>)}
+        {props.skillBadges.map((name, index) => <div key={index} className='skill-badge'>{name}</div>)}
 
         <p>
           {props.description}
         </p>
-        <Link href='https://www.github.com'>
-          <a>View on Github</a>
-        </Link>
-        <Link href='https://www.github.com'>
-          <a>View Live Version</a>
-        </Link>
-
+        {/* Line up URLs and anchor texts here from props */}
+        {props.URLs.map((name, index) =>
+          <Link key={index} href={name}>
+            <a>{props.anchorTexts[index]}</a>
+          </Link>)}
         <style jsx>
           {`
-            .flex-container-major-project-homepage-card{
+            .flex-container-content-card{
               display:flex;
             }
 
-            .major-project-homepage-card{
+            .major-content-card{
                 box-sizing:border-box;
                 width:95%;
                 border:solid ${props.borderColor} 5px;
@@ -88,4 +86,4 @@ const MajorProjectHomepageCard = (props) => {
   )
 }
 
-export default MajorProjectHomepageCard
+export default ContentCard

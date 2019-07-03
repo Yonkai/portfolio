@@ -13,6 +13,7 @@ const minor = () => (
     <NavMenu />
     <FakeFlow />
     {/* TODO: Hero image background + Form */}
+    {/* TODO: Change these to flex-box or css-grid collapsing items */}
 
     <style global jsx>
       {`body{
