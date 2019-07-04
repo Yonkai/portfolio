@@ -27,7 +27,7 @@ const Index = () => (
       title={'Bulletin Board System'}
       description={`An anonymous text board where users can talk about a variety of subjects.`}
       borderColor={'orangered'}
-      skillBadges={['RESTful', 'expressjs', 'mysql', 'javascript', 'cssgrid', 'nextjs', 'nginx', 'ubuntu', 'pm2', 'react']}
+      skillBadges={['RESTful', 'expressjs', 'mysql', 'javascript', 'photoshop', 'cssgrid', 'nextjs', 'nginx', 'ubuntu', 'pm2', 'react']}
       URLs={['https://github.com/Yonkai/BBS', 'https://www.daydreaming.me/']}
       anchorTexts={['View on Github', 'View Live Version']}
     />
@@ -47,7 +47,7 @@ const Index = () => (
       description={'A brief account of a person’s education, qualifications, and previous experience, typically sent with a job application.'}
       borderColor={'skyblue'}
       skillBadges={['resume', 'PDF', 'classical media']}
-      URLs={['https://github.com/Yonkai/visualized-sorting-algorithms-in-javascript']}
+      URLs={['https://drive.google.com/file/d/1wrDDQbdtqnWVAhPZPZo3uPOj_Z4uexOl/view?usp=sharing']}
       anchorTexts={['View Resume']}
     />
 
