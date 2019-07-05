@@ -7,16 +7,19 @@ const ContentCard = (props) => {
         <h2>
           {props.title}
         </h2>
-        {props.skillBadges.map((name, index) => <div key={index} className='skill-badge'>{name}</div>)}
+        {/* T. operator to check for existence */}
+        {props.skillBadges ? props.skillBadges.map((name, index) => <div key={index} className='skill-badge'>{name}</div>) : null}
 
         <p>
           {props.description}
         </p>
         {/* Line up URLs and anchor texts here from props */}
-        {props.URLs.map((name, index) =>
+        {/* T. operator to check for existence */}
+        {props.URLs ? props.URLs.map((name, index) =>
           <Link key={index} href={name}>
             <a>{props.anchorTexts[index]}</a>
-          </Link>)}
+          </Link>) : null}
+        {props.children}
         <style jsx>
           {`
             .flex-container-content-card{
