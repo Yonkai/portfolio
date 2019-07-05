@@ -9,13 +9,12 @@ const ExtendedIntroCard = (props) => {
       interests like walking, fishing, and making memes. Welcome to my little corner
       of the internet, please make yourself comfortable ☕☕☕.</p>
         <p>
-      Let me give you a tour! In the <Link href='/committed'><a>committed section</a></Link> you
+      Hey! Let me give you a tour! In the <Link href='/committed'><a>committed section</a></Link> you
       can see some my more "major" projects. In the <Link href='/staging'><a>staging section</a></Link> you
-      can find some more minor projects and other programming stuff.
+      can find some more "minor" projects and other programming content.
         </p>
         <p>
-      Want to get in touch? See the <Link href='/contact'><a>contact section</a></Link> to send me an email
-      or even send me a letter! (Haha don't actually do that we're in the future now friend.)
+      Want to get in touch? See the <Link href='/contact'><a>contact section</a></Link> to send me an email.
         </p>
         <style jsx>
           {`
@@ -54,7 +53,7 @@ const ExtendedIntroCard = (props) => {
                 transition:background-size .5s;
             }
             
-            a:hover {
+            a:hover, a:focus {
                 background: linear-gradient(to bottom,#ff990052 0%,#ff110080 100%);
                 background-position: 0 100%;
                 background-size: 200px 0px;

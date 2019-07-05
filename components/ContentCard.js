@@ -40,11 +40,11 @@ const ContentCard = (props) => {
 
             h2{
               margin: 0;
-              color:${props.headerColor};
+              color:#131313;
             }
             p{
               margin:5px;
-              color:${props.paragraphColor};
+              color:#131313;
             }
             
             // inspiration for anchor styling: https://css-tricks.com/having-fun-with-link-hover-effects/
@@ -60,7 +60,7 @@ const ContentCard = (props) => {
                 border:3px solid orange;
             }
             
-            a:hover {
+            a:hover, a:focus{
                 background: linear-gradient(to bottom,#ff990052 0%,#ff110080 100%);
                 background-position: 0 100%;
                 background-size: 200px 0px;
