@@ -15,7 +15,7 @@ const contact = () => (
     <FakeFlow />
     <ContentCard title={'Contact Form'}
       description={null}
-      borderColor={'gold'}
+      borderColor={'green'}
       skillBadges={null}
       URLs={null}
       anchorTexts={[null, null]}>
@@ -74,16 +74,24 @@ const contact = () => (
         button {
           width: 100%;
           background-color: white;
-          border:5px solid #ccc;
+          border:5px solid green;
           color: #011;
           padding: 14px 20px;
           margin: 8px 0;
           cursor: pointer;
         }
 
+        input:focus, textarea:focus{
+          border:1px solid purple;  
+        }
+
+        button:focus{
+          background-color:lightgreen;  
+        }
+
         /* Add a background color to the submit button on mouse-over */
-        button:hover {
-          background-color: grey;
+        button:hover{
+          background-color: lightgreen;
         }
         
         `}

@@ -61,6 +61,7 @@ const ContentCard = (props) => {
                 transition:background-size .5s;
                 margin-right:15px;
                 border:3px solid orange;
+                padding:3px;
             }
             
             a:hover, a:focus{
