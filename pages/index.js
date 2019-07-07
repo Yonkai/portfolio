@@ -11,6 +11,7 @@ import ContentCard from '../components/ContentCard'
 import TemplatedContainer from '../components/TemplatedContainer'
 import SocialMediaIcons from '../components/SocialMediaIcons'
 import ViewMoreHomepageButton from '../components/ViewMoreHomepageButton'
+import ContactCard from '../components/ContactCard'
 const Index = () => (
   <>
     <Head>
@@ -56,6 +57,9 @@ const Index = () => (
     <TemplatedContainer borderColor={'orangered'} padding={'10px'}>
       <ViewMoreHomepageButton />
     </TemplatedContainer>
+
+    <ContactCard />
+
     {/* Pass in icons as child component, render with props.children */}
     <TemplatedContainer borderColor={'orangered'}>
       <SocialMediaIcons />

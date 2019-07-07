@@ -24,7 +24,8 @@ const ExtendedIntroCard = (props) => {
 
             p{
               color:black;
-            }
+               
+            } 
 
             .extended-intro-card{
                 box-sizing:border-box;

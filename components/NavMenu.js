@@ -6,7 +6,18 @@ class NavMenu extends Component {
   constructor (props) {
     super(props)
     this.toggleMenuBool = this.toggleMenuBool.bind(this)
-    this.state = { menuToggle: true }
+    this.handleKeyPress = this.handleKeyPress.bind(this)
+    this.checkBoxRef = React.createRef()
+
+    this.state = { menuToggle: false }
+  }
+
+  handleKeyPress (event) {
+    if (event.key === 'Enter') {
+      this.checkBoxRef.current.click()
+      event.stopPropagation()
+      this.toggleMenuBool()
+    }
   }
 
   toggleMenuBool () {
@@ -20,11 +31,11 @@ class NavMenu extends Component {
       <nav className='nav-container'>
         <nav className='dropdown-menu'>
           {/* Uncontrolled component because of the form state */}
-          <input onClick={this.toggleMenuBool} type='checkbox' id='menu' autoComplete='off' />
+          <input ref={this.checkBoxRef} onClick={this.toggleMenuBool} defaultChecked={this.state.menuToggle} type='checkbox' id='menu' autoComplete='off' />
           <label htmlFor='menu'>
-            <div className='nav-icon2-container'>
+            <div className='nav-icon2-container' tabIndex='0' onKeyPress={this.handleKeyPress}>
               {/* https://codepen.io/designcouch/pen/Atyop?editors=0100 */}
-              <div id='nav-icon2' className={this.state.menuToggle ? 'closed' : 'open'}>
+              <div id='nav-icon2' className={this.state.menuToggle ? 'open' : 'close'}>
                 <span />
                 <span />
                 <span />
@@ -121,9 +132,14 @@ class NavMenu extends Component {
                     display:none;
                 }
         
-                input:checked ~ .menu-content{
+                input:checked ~ .menu-content {
                     max-height:400px;
                     transition:max-height .25s ease-in-out;
+                }
+
+                input:checked ~ .menu-content a:focus{
+                  max-height:400px;
+                  transition:max-height .25s ease-in-out;
                 }
 
                 .nav-icon2-container{
