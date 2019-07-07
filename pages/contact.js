@@ -9,16 +9,18 @@ const contact = () => (
     <Head>
       <title>Contact</title>
       <meta name='description' content='Contact me.' />
+      <meta name='author' content='Frank Gunsch, fgunsch.webdev@gmail.com' />
       <link href='https://fonts.googleapis.com/css?family=Anaheim&display=swap' rel='stylesheet' />
     </Head>
     <NavMenu />
     <FakeFlow />
-    <ContentCard title={'Contact Form'}
+    <ContentCard title={'Contact!'}
       description={null}
       borderColor={'green'}
       skillBadges={null}
       URLs={null}
       anchorTexts={[null, null]}>
+      {/* Uncontrolled component */}
       <div className='form-container'>
         <form method='POST' action='https://formspree.io/fgunsch.webdev@gmail.com'>
           <input type='text' name='name' id='full-name' placeholder='Your Full Name' required='' />
@@ -68,6 +70,7 @@ const contact = () => (
           border: 5px solid  #ccc;
           cursor: pointer;
           background-color: #fff8ef;
+          color:black;
         }
 
         /* Style the submit button */

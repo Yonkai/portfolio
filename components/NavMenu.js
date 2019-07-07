@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React, { Component } from 'react'
 
-// BUG: Race conditions with state?
+// BUG: Race conditions with state? Or more likely with the uncontrolled component
 class NavMenu extends Component {
   constructor (props) {
     super(props)
@@ -20,9 +20,9 @@ class NavMenu extends Component {
       <nav className='nav-container'>
         <nav className='dropdown-menu'>
           {/* Uncontrolled component because of the form state */}
-          <input type='checkbox' id='menu' autoComplete='off' />
+          <input onClick={this.toggleMenuBool} type='checkbox' id='menu' autoComplete='off' />
           <label htmlFor='menu'>
-            <div onClick={this.toggleMenuBool} className='nav-icon2-container'>
+            <div className='nav-icon2-container'>
               {/* https://codepen.io/designcouch/pen/Atyop?editors=0100 */}
               <div id='nav-icon2' className={this.state.menuToggle ? 'closed' : 'open'}>
                 <span />

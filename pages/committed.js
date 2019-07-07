@@ -9,6 +9,7 @@ const major = () => (
     <Head>
       <title>Commited - Page for Major Projects</title>
       <meta name='description' content='Page for major projects.' />
+      <meta name='author' content='Frank Gunsch' />
       <link href='https://fonts.googleapis.com/css?family=Anaheim&display=swap' rel='stylesheet' />
     </Head>
     {/* major */}

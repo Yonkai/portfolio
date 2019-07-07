@@ -9,7 +9,7 @@ const ExtendedIntroCard = (props) => {
       interests like walking, fishing, and making memes. Welcome to my little corner
       of the internet, please make yourself comfortable ☕☕☕.</p>
         <p>
-      Hey! Let me give you a tour! In the <Link href='/committed'><a>committed section</a></Link> you
+      Let me give you a tour! In the <Link href='/committed'><a>committed section</a></Link> you
       can see some my more "major" projects. In the <Link href='/staging'><a>staging section</a></Link> you
       can find some more "minor" projects and other programming content.
         </p>

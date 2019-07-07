@@ -9,6 +9,7 @@ const minor = () => (
     <Head>
       <title>Staging - Page for Other Programming Stuff</title>
       <meta name='description' content='Other programming content' />
+      <meta name='author' content='Frank Gunsch, fgunsch.webdev@gmail.com' />
       <link href='https://fonts.googleapis.com/css?family=Anaheim&display=swap' rel='stylesheet' />
     </Head>
     {/* <div>minor</div> */}

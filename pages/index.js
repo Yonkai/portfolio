@@ -16,6 +16,7 @@ const Index = () => (
     <Head>
       <title>Frank Gunsch - Homepage</title>
       <meta name='description' content='Frank Gunsch&apos;s Website.' />
+      <meta name='author' content='Frank Gunsch, fgunsch.webdev@gmail.com' />
       <link href='https://fonts.googleapis.com/css?family=Anaheim&display=swap' rel='stylesheet' />
     </Head>
     <NavMenu />
