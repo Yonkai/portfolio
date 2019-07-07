@@ -13,9 +13,9 @@ const ContactCard = (props) => {
         {/* Uncontrolled component */}
         <div className='form-container'>
           <form method='POST' action='https://formspree.io/fgunsch.webdev@gmail.com'>
-            <input type='text' name='name' id='full-name' placeholder='Your Full Name' required='' />
-            <input type='email' name='email' placeholder='Your email' />
-            <textarea name='message' placeholder='Your Message' rows='5' />
+            <input type='text' name='name' id='full-name' placeholder='Your Full Name' />
+            <input type='email' name='email' placeholder='Your email' required='true' />
+            <textarea name='message' placeholder='Your Message' rows='5' require='true' />
             <button type='submit'>Send Message</button>
           </form>
         </div>

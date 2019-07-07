@@ -282,15 +282,30 @@ class NavMenu extends Component {
                   }
                   
                   .large-screen-menu{
-                    display:flex;
+                    display:grid;
+                    width:100%;
+                    grid-template-columns:1fr 1fr 1fr 1fr;
                     font-size:20px;
                     font-family:arial;
-                    background:white;
-                    justify-content:space-around;
+                    justify-items:center;
+                    background:rgba(0,0,0,0.0);
+                  }
+                  
+                  .large-screen-menu a{
+                    color:rgba(245,245,240);
+                    text-decoration:none;
+                    width:100%;
+                    padding-top:20px;
+                    padding-bottom:25px;
+                    text-align: center;
+                    align-self:start;
+                    transition:border-bottom .2s ease-in-out;
+                    background:rgba(3,3,3,0.7);
                   }
 
-                  .large-screen-menu a{
-                    text-decoration:none;
+                  .large-screen-menu a:hover{
+                    border-bottom:5px solid yellow;
+                    transition:border-bottom .2s ease-in-out;
                   }
               }
 
