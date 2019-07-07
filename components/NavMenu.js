@@ -71,6 +71,23 @@ class NavMenu extends Component {
             </ul>
           </div>
         </nav>
+        {/* Large screen nav menu: */}
+        <nav className='large-screen-nav-bar'>
+          <div className='large-screen-menu'>
+            <Link href='/'>
+              <a>Home</a>
+            </Link>
+            <Link href='/major' as='/committed'>
+              <a>Commited</a>
+            </Link>
+            <Link href='/minor' as='/staging'>
+              <a>Staging</a>
+            </Link>
+            <Link href='/contact'>
+              <a>Contact</a>
+            </Link>
+          </div>
+        </nav>
         <style jsx>{`
                 nav{
                   font-size:20px;
@@ -248,6 +265,34 @@ class NavMenu extends Component {
                   top: 29px;
                 }
 
+                .large-screen-nav-bar{
+                  display:none;
+                }
+
+                //Switch navigatio menu for larger screens, reserve hamburger menu for smaller screens
+                @media (min-width: 700px) {
+                  .dropdown-menu{
+                    display:none;
+                  }
+
+                  .large-screen-nav-bar{
+                    display:block;
+                    color:red;
+                    margin:0;
+                  }
+                  
+                  .large-screen-menu{
+                    display:flex;
+                    font-size:20px;
+                    font-family:arial;
+                    background:white;
+                    justify-content:space-around;
+                  }
+
+                  .large-screen-menu a{
+                    text-decoration:none;
+                  }
+              }
 
                 `
         }</style>

@@ -12,6 +12,7 @@ import TemplatedContainer from '../components/TemplatedContainer'
 import SocialMediaIcons from '../components/SocialMediaIcons'
 import ViewMoreHomepageButton from '../components/ViewMoreHomepageButton'
 import ContactCard from '../components/ContactCard'
+
 const Index = () => (
   <>
     <Head>
