@@ -7,10 +7,11 @@ import ContentCard from '../components/ContentCard'
 const minor = () => (
   <>
     <Head>
-      <title>Staging - Page for Other Programming Stuff</title>
+      <title>Staging - Page for Other Content</title>
       <meta name='description' content='Other programming content' />
       <meta name='author' content='Frank Gunsch, fgunsch.webdev@gmail.com' />
       <link href='https://fonts.googleapis.com/css?family=Anaheim&display=swap' rel='stylesheet' />
+      <link rel='shortcut icon' type='image/x-icon' href='../static/focus.ico' />
     </Head>
     {/* <div>minor</div> */}
     <NavMenu />

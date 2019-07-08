@@ -20,6 +20,7 @@ const Index = () => (
       <meta name='description' content='Frank Gunsch&apos;s Website.' />
       <meta name='author' content='Frank Gunsch, fgunsch.webdev@gmail.com' />
       <link href='https://fonts.googleapis.com/css?family=Anaheim&display=swap' rel='stylesheet' />
+      <link rel='shortcut icon' type='image/x-icon' href='../static/focus.ico' />
     </Head>
     <NavMenu />
     <Wave />

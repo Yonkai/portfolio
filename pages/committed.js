@@ -11,6 +11,7 @@ const major = () => (
       <meta name='description' content='Page for major projects.' />
       <meta name='author' content='Frank Gunsch' />
       <link href='https://fonts.googleapis.com/css?family=Anaheim&display=swap' rel='stylesheet' />
+      <link rel='shortcut icon' type='image/x-icon' href='../static/focus.ico' />
     </Head>
     {/* major */}
     <NavMenu />

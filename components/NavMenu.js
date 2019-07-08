@@ -293,12 +293,12 @@ class NavMenu extends Component {
                     color:rgba(245,245,240);
                     text-decoration:none;
                     width:100%;
-                    padding-top:20px;
-                    padding-bottom:25px;
+                    padding-top:15px;
+                    padding-bottom:20px;
                     text-align: center;
                     align-self:start;
                     transition:border-bottom .2s ease-in-out;
-                    background:rgba(3,3,3,0.7);
+                    background:rgba(0,20,40,0.7);
                   }
 
                   .large-screen-menu a:hover{

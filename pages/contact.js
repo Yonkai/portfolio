@@ -13,6 +13,7 @@ const contact = () => (
       <meta name='description' content='Contact me.' />
       <meta name='author' content='Frank Gunsch, fgunsch.webdev@gmail.com' />
       <link href='https://fonts.googleapis.com/css?family=Anaheim&display=swap' rel='stylesheet' />
+      <link rel='shortcut icon' type='image/x-icon' href='../static/focus.ico' />
     </Head>
     <NavMenu />
     <FakeFlow />
