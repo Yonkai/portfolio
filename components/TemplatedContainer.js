@@ -3,8 +3,8 @@ const TemplateContainer = (props) => {
     <div className='flex-container-templated-container'>
       <section className='templated-container'>
         <div>
-          <p>{props.text}</p>
           {props.children}
+          <p>{props.text}</p>
         </div>
         <style jsx>
           {`
@@ -25,7 +25,8 @@ const TemplateContainer = (props) => {
                 }
   
                 p{
-                    margin:0;
+                    margin:5px;
+                    text-align:center;
                 }
   
                 h2{

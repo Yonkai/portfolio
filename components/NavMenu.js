@@ -91,7 +91,6 @@ class NavMenu extends Component {
         <style jsx>{`
                 nav{
                   font-size:20px;
-                  font-family:arial;
                 }
 
                 .nav-container{
@@ -286,7 +285,6 @@ class NavMenu extends Component {
                     width:100%;
                     grid-template-columns:1fr 1fr 1fr 1fr;
                     font-size:20px;
-                    font-family:arial;
                     justify-items:center;
                     background:rgba(0,0,0,0.0);
                   }
@@ -304,7 +302,7 @@ class NavMenu extends Component {
                   }
 
                   .large-screen-menu a:hover{
-                    border-bottom:5px solid yellow;
+                    border-bottom:5px solid rgba(253,160,49,1);
                     transition:border-bottom .2s ease-in-out;
                   }
               }

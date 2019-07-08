@@ -50,19 +50,19 @@ const Index = () => (
       description={'A brief account of a person’s education, qualifications, and previous experience, typically sent with a job application.'}
       borderColor={'skyblue'}
       skillBadges={['resume', 'PDF', 'classical media']}
-      URLs={['https://drive.google.com/file/d/1wrDDQbdtqnWVAhPZPZo3uPOj_Z4uexOl/view?usp=sharing']}
+      URLs={['../static/frank-gunsch-webdev-resume.pdf']}
       anchorTexts={['View Resume']}
     />
 
     {/* Make a seperate component for view more work button then pass it */}
+    <ContactCard />
+
     <TemplatedContainer borderColor={'orangered'} padding={'10px'}>
       <ViewMoreHomepageButton />
     </TemplatedContainer>
 
-    <ContactCard />
-
-    {/* Pass in icons as child component, render with props.children */}
-    <TemplatedContainer borderColor={'orangered'}>
+    {/* Pass in icons as child component, render with props.children, or pass in a component as a prop and render that. */}
+    <TemplatedContainer borderColor={'orangered'} text={'fgunsch.webdev@gmail.com'}>
       <SocialMediaIcons />
     </TemplatedContainer>
     <style global jsx>

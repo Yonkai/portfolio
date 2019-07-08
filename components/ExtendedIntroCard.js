@@ -5,16 +5,12 @@ const ExtendedIntroCard = (props) => {
     <div className='flex-container-extended-intro-card'>
       <section className='extended-intro-card'>
         <p>
-      Hey there! I'm Frank Gunsch, a Web Developer and person with other
-      interests like walking, fishing, and making memes. Welcome to my little corner
-      of the internet, please make yourself comfortable ☕☕☕.</p>
-        <p>
       Let me give you a tour! In the <Link href='/committed'><a>committed section</a></Link> you
       can see some my more "major" projects. In the <Link href='/staging'><a>staging section</a></Link> you
-      can find some more "minor" projects and other programming content.
+      can find some more "minor" projects and other approximately programming related content. Enjoy your stay ☕☕☕.
         </p>
         <p>
-      Want to get in touch? See the <Link href='/contact'><a>contact section</a></Link> to send me an email.
+      Want to get in touch? See the <Link href='/contact'><a>contact section</a></Link>.
         </p>
         <style jsx>
           {`

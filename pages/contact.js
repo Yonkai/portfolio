@@ -3,6 +3,8 @@ import NavMenu from '../components/NavMenu.js'
 import theme from '../theme.js'
 import FakeFlow from '../components/FakeFlow'
 import ContactCard from '../components/ContactCard'
+import SocialMediaIcons from '../components/SocialMediaIcons'
+import TemplatedContainer from '../components/TemplatedContainer'
 
 const contact = () => (
   <>
@@ -15,6 +17,9 @@ const contact = () => (
     <NavMenu />
     <FakeFlow />
     <ContactCard />
+    <TemplatedContainer borderColor={'orangered'} text={'fgunsch.webdev@gmail.com'}>
+      <SocialMediaIcons />
+    </TemplatedContainer>
 
     <style global jsx>
       {`body{

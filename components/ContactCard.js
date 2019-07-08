@@ -15,7 +15,7 @@ const ContactCard = (props) => {
           <form method='POST' action='https://formspree.io/fgunsch.webdev@gmail.com'>
             <input type='text' name='name' id='full-name' placeholder='Your Full Name' />
             <input type='email' name='email' placeholder='Your email' required='true' />
-            <textarea name='message' placeholder='Your Message' rows='5' require='true' />
+            <textarea name='message' placeholder='Your Message' rows='5' required='true' />
             <button type='submit'>Send Message</button>
           </form>
         </div>
