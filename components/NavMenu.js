@@ -53,18 +53,18 @@ class NavMenu extends Component {
                 </Link>
               </li>
               <li>
-                <Link href='/major' as='/committed'>
+                <Link prefetch href='/major' as='/committed'>
                   <a>Commited</a>
                 </Link>
               </li>
 
               <li>
-                <Link href='/minor' as='/staging'>
+                <Link prefetch href='/minor' as='/staging'>
                   <a>Staging</a>
                 </Link>
               </li>
               <li>
-                <Link href='/contact'>
+                <Link prefetch href='/contact'>
                   <a>Contact</a>
                 </Link>
               </li>
@@ -77,13 +77,13 @@ class NavMenu extends Component {
             <Link href='/'>
               <a>Home</a>
             </Link>
-            <Link href='/major' as='/committed'>
+            <Link prefetch href='/major' as='/committed'>
               <a>Commited</a>
             </Link>
-            <Link href='/minor' as='/staging'>
+            <Link prefetch href='/minor' as='/staging'>
               <a>Staging</a>
             </Link>
-            <Link href='/contact'>
+            <Link prefetch href='/contact'>
               <a>Contact</a>
             </Link>
           </div>
