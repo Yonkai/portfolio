@@ -31,9 +31,9 @@ const Index = () => (
       title={'Bulletin Board System'}
       description={`An anonymous text board where users can talk about a variety of subjects.`}
       borderColor={'orangered'}
-      skillBadges={['RESTful', 'expressjs', 'mysql', 'javascript', 'photoshop', 'cssgrid', 'nextjs', 'nginx', 'ubuntu', 'pm2', 'react']}
+      skillBadges={['RESTful', 'axios', 'expressjs', 'mysql', 'javascript', 'photoshop', 'cssgrid', 'nextjs', 'nginx', 'ubuntu', 'pm2', 'react']}
       URLs={['https://github.com/Yonkai/BBS', 'https://www.daydreaming.me/']}
-      anchorTexts={['View on my Github', 'View Live Version']}
+      anchorTexts={['View on my Github', 'View Live']}
     />
 
     <ContentCard
@@ -43,7 +43,7 @@ const Index = () => (
       skillBadges={['html', 'css', 'javascript', 'jquery']}
       URLs={['https://github.com/Yonkai/visualized-sorting-algorithms-in-javascript',
         'https://yonkai.github.io/visualized-sorting-algorithms-in-javascript/']}
-      anchorTexts={['View on my Github', 'View Live Version']}
+      anchorTexts={['View on my Github', 'View Live']}
     />
 
     <ContentCard

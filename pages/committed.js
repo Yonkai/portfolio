@@ -20,10 +20,11 @@ const major = () => (
       title={'Bulletin Board System'}
       description={`An anonymous text board where users can talk about a variety of subjects.`}
       borderColor={'orangered'}
-      skillBadges={['RESTful', 'expressjs', 'mysql', 'javascript', 'cssgrid', 'nextjs', 'nginx', 'ubuntu', 'pm2', 'react']}
+      skillBadges={['RESTful', 'axios', 'expressjs', 'mysql', 'javascript', 'cssgrid', 'nextjs', 'nginx', 'ubuntu', 'pm2', 'react']}
       URLs={['https://github.com/Yonkai/BBS', 'https://www.daydreaming.me/']}
       anchorTexts={['View on Github', 'View Live Version']}
     />
+
     <ContentCard
       title={'Sorting Algorithm Visualizer'}
       description={'Visualizes sorting algorithms through a color wheel.'}
@@ -31,6 +32,24 @@ const major = () => (
       skillBadges={['html', 'css', 'javascript', 'jquery']}
       URLs={['https://github.com/Yonkai/visualized-sorting-algorithms-in-javascript',
         'https://yonkai.github.io/visualized-sorting-algorithms-in-javascript/']}
+      anchorTexts={['View on Github', 'View Live Version']}
+    />
+
+    <ContentCard
+      title={'Portfolio'}
+      description={'You\'re on it!'}
+      borderColor={'orangered'}
+      skillBadges={['NextJS', 'css-in-js', 'javascript']}
+      URLs={['https://github.com/Yonkai/portfolio']}
+      anchorTexts={['View on Github']}
+    />
+    <ContentCard
+      title={'Banking Site Remake'}
+      description={'Remake of frontend index of a local bank near me'}
+      borderColor={'orangered'}
+      skillBadges={['Responsive Design', 'css-grid', 'sass']}
+      URLs={['https://github.com/Yonkai/local-banking-site-remade',
+        'https://yonkai.github.io/local-banking-site-remade/#']}
       anchorTexts={['View on Github', 'View Live Version']}
     />
 
