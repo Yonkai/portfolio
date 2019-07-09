@@ -39,7 +39,7 @@ const major = () => (
       title={'Portfolio'}
       description={'You\'re on it!'}
       borderColor={'orangered'}
-      skillBadges={['NextJS', 'css-in-js', 'javascript']}
+      skillBadges={['NextJS', 'css-in-js', 'javascript', 'SEO']}
       URLs={['https://github.com/Yonkai/portfolio']}
       anchorTexts={['View on Github']}
     />
