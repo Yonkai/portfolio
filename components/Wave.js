@@ -1303,7 +1303,7 @@ const Wave = () => {
            
            .block_100 {
              animation: wave infinite 20s ease-in-out;
-             animation-delay: 20s;
+             animation-delay: 30s;
              position: absolute;
              border: 1px solid #139139;
              margin-top: -25px;
