@@ -114,7 +114,7 @@ const Wave = () => {
                 margin-bottom:10px;            
             }
            .block_1 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 0.3s;
              position: absolute;
              border: 1px solid #139139;
@@ -126,7 +126,7 @@ const Wave = () => {
            }
            
            .block_2 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 0.6s;
              position: absolute;
              border: 1px solid #139139;
@@ -138,7 +138,7 @@ const Wave = () => {
            }
            
            .block_3 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 0.9s;
              position: absolute;
              border: 1px solid #139139;
@@ -150,7 +150,7 @@ const Wave = () => {
            }
            
            .block_4 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 1.2s;
              position: absolute;
              border: 1px solid #139139;
@@ -162,7 +162,7 @@ const Wave = () => {
            }
            
            .block_5 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 1.5s;
              position: absolute;
              border: 1px solid #139139;
@@ -174,7 +174,7 @@ const Wave = () => {
            }
            
            .block_6 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 1.8s;
              position: absolute;
              border: 1px solid #139139;
@@ -186,7 +186,7 @@ const Wave = () => {
            }
            
            .block_7 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 2.1s;
              position: absolute;
              border: 1px solid #139139;
@@ -198,7 +198,7 @@ const Wave = () => {
            }
            
            .block_8 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 2.4s;
              position: absolute;
              border: 1px solid #139139;
@@ -210,7 +210,7 @@ const Wave = () => {
            }
            
            .block_9 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 2.7s;
              position: absolute;
              border: 1px solid #139139;
@@ -222,7 +222,7 @@ const Wave = () => {
            }
            
            .block_10 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 3s;
              position: absolute;
              border: 1px solid #139139;
@@ -234,7 +234,7 @@ const Wave = () => {
            }
            
            .block_11 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 3.3s;
              position: absolute;
              border: 1px solid #139139;
@@ -246,7 +246,7 @@ const Wave = () => {
            }
            
            .block_12 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 3.6s;
              position: absolute;
              border: 1px solid #139139;
@@ -258,7 +258,7 @@ const Wave = () => {
            }
            
            .block_13 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 3.9s;
              position: absolute;
              border: 1px solid #139139;
@@ -270,7 +270,7 @@ const Wave = () => {
            }
            
            .block_14 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 4.2s;
              position: absolute;
              border: 1px solid #139139;
@@ -282,7 +282,7 @@ const Wave = () => {
            }
            
            .block_15 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 4.5s;
              position: absolute;
              border: 1px solid #139139;
@@ -294,7 +294,7 @@ const Wave = () => {
            }
            
            .block_16 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 4.8s;
              position: absolute;
              border: 1px solid #139139;
@@ -306,7 +306,7 @@ const Wave = () => {
            }
            
            .block_17 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 5.1s;
              position: absolute;
              border: 1px solid #139139;
@@ -318,7 +318,7 @@ const Wave = () => {
            }
            
            .block_18 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 5.4s;
              position: absolute;
              border: 1px solid #139139;
@@ -330,7 +330,7 @@ const Wave = () => {
            }
            
            .block_19 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 5.7s;
              position: absolute;
              border: 1px solid #139139;
@@ -342,7 +342,7 @@ const Wave = () => {
            }
            
            .block_20 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 6s;
              position: absolute;
              border: 1px solid #139139;
@@ -354,7 +354,7 @@ const Wave = () => {
            }
            
            .block_21 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 6.3s;
              position: absolute;
              border: 1px solid #139139;
@@ -366,7 +366,7 @@ const Wave = () => {
            }
            
            .block_22 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 6.6s;
              position: absolute;
              border: 1px solid #139139;
@@ -378,7 +378,7 @@ const Wave = () => {
            }
            
            .block_23 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 6.9s;
              position: absolute;
              border: 1px solid #139139;
@@ -390,7 +390,7 @@ const Wave = () => {
            }
            
            .block_24 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 7.2s;
              position: absolute;
              border: 1px solid #139139;
@@ -402,7 +402,7 @@ const Wave = () => {
            }
            
            .block_25 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 7.5s;
              position: absolute;
              border: 1px solid #139139;
@@ -414,7 +414,7 @@ const Wave = () => {
            }
            
            .block_26 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 7.8s;
              position: absolute;
              border: 1px solid #139139;
@@ -426,7 +426,7 @@ const Wave = () => {
            }
            
            .block_27 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 8.1s;
              position: absolute;
              border: 1px solid #139139;
@@ -438,7 +438,7 @@ const Wave = () => {
            }
            
            .block_28 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 8.4s;
              position: absolute;
              border: 1px solid #139139;
@@ -450,7 +450,7 @@ const Wave = () => {
            }
            
            .block_29 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 8.7s;
              position: absolute;
              border: 1px solid #139139;
@@ -462,7 +462,7 @@ const Wave = () => {
            }
            
            .block_30 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 9s;
              position: absolute;
              border: 1px solid #139139;
@@ -474,7 +474,7 @@ const Wave = () => {
            }
            
            .block_31 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 9.3s;
              position: absolute;
              border: 1px solid #139139;
@@ -486,7 +486,7 @@ const Wave = () => {
            }
            
            .block_32 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 9.6s;
              position: absolute;
              border: 1px solid #139139;
@@ -498,7 +498,7 @@ const Wave = () => {
            }
            
            .block_33 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 9.9s;
              position: absolute;
              border: 1px solid #139139;
@@ -510,7 +510,7 @@ const Wave = () => {
            }
            
            .block_34 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 10.2s;
              position: absolute;
              border: 1px solid #139139;
@@ -522,7 +522,7 @@ const Wave = () => {
            }
            
            .block_35 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 10.5s;
              position: absolute;
              border: 1px solid #139139;
@@ -534,7 +534,7 @@ const Wave = () => {
            }
            
            .block_36 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 10.8s;
              position: absolute;
              border: 1px solid #139139;
@@ -546,7 +546,7 @@ const Wave = () => {
            }
            
            .block_37 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 11.1s;
              position: absolute;
              border: 1px solid #139139;
@@ -558,7 +558,7 @@ const Wave = () => {
            }
            
            .block_38 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 11.4s;
              position: absolute;
              border: 1px solid #139139;
@@ -570,7 +570,7 @@ const Wave = () => {
            }
            
            .block_39 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 11.7s;
              position: absolute;
              border: 1px solid #139139;
@@ -582,7 +582,7 @@ const Wave = () => {
            }
            
            .block_40 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 12s;
              position: absolute;
              border: 1px solid #139139;
@@ -594,7 +594,7 @@ const Wave = () => {
            }
            
            .block_41 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 12.3s;
              position: absolute;
              border: 1px solid #139139;
@@ -606,7 +606,7 @@ const Wave = () => {
            }
            
            .block_42 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 12.6s;
              position: absolute;
              border: 1px solid #139139;
@@ -618,7 +618,7 @@ const Wave = () => {
            }
            
            .block_43 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 12.9s;
              position: absolute;
              border: 1px solid #139139;
@@ -630,7 +630,7 @@ const Wave = () => {
            }
            
            .block_44 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 13.2s;
              position: absolute;
              border: 1px solid #139139;
@@ -642,7 +642,7 @@ const Wave = () => {
            }
            
            .block_45 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 13.5s;
              position: absolute;
              border: 1px solid #139139;
@@ -654,7 +654,7 @@ const Wave = () => {
            }
            
            .block_46 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 13.8s;
              position: absolute;
              border: 1px solid #139139;
@@ -666,7 +666,7 @@ const Wave = () => {
            }
            
            .block_47 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 14.1s;
              position: absolute;
              border: 1px solid #139139;
@@ -678,7 +678,7 @@ const Wave = () => {
            }
            
            .block_48 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 14.4s;
              position: absolute;
              border: 1px solid #139139;
@@ -690,7 +690,7 @@ const Wave = () => {
            }
            
            .block_49 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 14.7s;
              position: absolute;
              border: 1px solid #139139;
@@ -702,7 +702,7 @@ const Wave = () => {
            }
            
            .block_50 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 15s;
              position: absolute;
              border: 1px solid #139139;
@@ -714,7 +714,7 @@ const Wave = () => {
            }
            
            .block_51 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 15.3s;
              position: absolute;
              border: 1px solid #139139;
@@ -726,7 +726,7 @@ const Wave = () => {
            }
            
            .block_52 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 15.6s;
              position: absolute;
              border: 1px solid #139139;
@@ -738,7 +738,7 @@ const Wave = () => {
            }
            
            .block_53 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 15.9s;
              position: absolute;
              border: 1px solid #139139;
@@ -750,7 +750,7 @@ const Wave = () => {
            }
            
            .block_54 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 16.2s;
              position: absolute;
              border: 1px solid #139139;
@@ -762,7 +762,7 @@ const Wave = () => {
            }
            
            .block_55 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 16.5s;
              position: absolute;
              border: 1px solid #139139;
@@ -774,7 +774,7 @@ const Wave = () => {
            }
            
            .block_56 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 16.8s;
              position: absolute;
              border: 1px solid #139139;
@@ -786,7 +786,7 @@ const Wave = () => {
            }
            
            .block_57 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 17.1s;
              position: absolute;
              border: 1px solid #139139;
@@ -798,7 +798,7 @@ const Wave = () => {
            }
            
            .block_58 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 17.4s;
              position: absolute;
              border: 1px solid #139139;
@@ -810,7 +810,7 @@ const Wave = () => {
            }
            
            .block_59 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 17.7s;
              position: absolute;
              border: 1px solid #139139;
@@ -822,7 +822,7 @@ const Wave = () => {
            }
            
            .block_60 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 18s;
              position: absolute;
              border: 1px solid #139139;
@@ -834,7 +834,7 @@ const Wave = () => {
            }
            
            .block_61 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 18.3s;
              position: absolute;
              border: 1px solid #139139;
@@ -846,7 +846,7 @@ const Wave = () => {
            }
            
            .block_62 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 18.6s;
              position: absolute;
              border: 1px solid #139139;
@@ -858,7 +858,7 @@ const Wave = () => {
            }
            
            .block_63 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 18.9s;
              position: absolute;
              border: 1px solid #139139;
@@ -870,7 +870,7 @@ const Wave = () => {
            }
            
            .block_64 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 19.2s;
              position: absolute;
              border: 1px solid #139139;
@@ -882,7 +882,7 @@ const Wave = () => {
            }
            
            .block_65 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 19.5s;
              position: absolute;
              border: 1px solid #139139;
@@ -894,7 +894,7 @@ const Wave = () => {
            }
            
            .block_66 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 19.8s;
              position: absolute;
              border: 1px solid #139139;
@@ -906,7 +906,7 @@ const Wave = () => {
            }
            
            .block_67 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 20.1s;
              position: absolute;
              border: 1px solid #139139;
@@ -918,7 +918,7 @@ const Wave = () => {
            }
            
            .block_68 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 20.4s;
              position: absolute;
              border: 1px solid #139139;
@@ -930,7 +930,7 @@ const Wave = () => {
            }
            
            .block_69 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 20.7s;
              position: absolute;
              border: 1px solid #139139;
@@ -942,7 +942,7 @@ const Wave = () => {
            }
            
            .block_70 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 21s;
              position: absolute;
              border: 1px solid #139139;
@@ -954,7 +954,7 @@ const Wave = () => {
            }
            
            .block_71 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 21.3s;
              position: absolute;
              border: 1px solid #139139;
@@ -966,7 +966,7 @@ const Wave = () => {
            }
            
            .block_72 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 21.6s;
              position: absolute;
              border: 1px solid #139139;
@@ -978,7 +978,7 @@ const Wave = () => {
            }
            
            .block_73 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 21.9s;
              position: absolute;
              border: 1px solid #139139;
@@ -990,7 +990,7 @@ const Wave = () => {
            }
            
            .block_74 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 22.2s;
              position: absolute;
              border: 1px solid #139139;
@@ -1002,7 +1002,7 @@ const Wave = () => {
            }
            
            .block_75 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 22.5s;
              position: absolute;
              border: 1px solid #139139;
@@ -1014,7 +1014,7 @@ const Wave = () => {
            }
            
            .block_76 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 22.8s;
              position: absolute;
              border: 1px solid #139139;
@@ -1026,7 +1026,7 @@ const Wave = () => {
            }
            
            .block_77 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 23.1s;
              position: absolute;
              border: 1px solid #139139;
@@ -1038,7 +1038,7 @@ const Wave = () => {
            }
            
            .block_78 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 23.4s;
              position: absolute;
              border: 1px solid #139139;
@@ -1050,7 +1050,7 @@ const Wave = () => {
            }
            
            .block_79 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 23.7s;
              position: absolute;
              border: 1px solid #139139;
@@ -1062,7 +1062,7 @@ const Wave = () => {
            }
            
            .block_80 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 24s;
              position: absolute;
              border: 1px solid #139139;
@@ -1074,7 +1074,7 @@ const Wave = () => {
            }
            
            .block_81 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 24.3s;
              position: absolute;
              border: 1px solid #139139;
@@ -1086,7 +1086,7 @@ const Wave = () => {
            }
            
            .block_82 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 24.6s;
              position: absolute;
              border: 1px solid #139139;
@@ -1098,7 +1098,7 @@ const Wave = () => {
            }
            
            .block_83 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 24.9s;
              position: absolute;
              border: 1px solid #139139;
@@ -1110,7 +1110,7 @@ const Wave = () => {
            }
            
            .block_84 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 25.2s;
              position: absolute;
              border: 1px solid #139139;
@@ -1122,7 +1122,7 @@ const Wave = () => {
            }
            
            .block_85 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 25.5s;
              position: absolute;
              border: 1px solid #139139;
@@ -1134,7 +1134,7 @@ const Wave = () => {
            }
            
            .block_86 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 25.8s;
              position: absolute;
              border: 1px solid #139139;
@@ -1146,7 +1146,7 @@ const Wave = () => {
            }
            
            .block_87 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 26.1s;
              position: absolute;
              border: 1px solid #139139;
@@ -1158,7 +1158,7 @@ const Wave = () => {
            }
            
            .block_88 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 26.4s;
              position: absolute;
              border: 1px solid #139139;
@@ -1170,7 +1170,7 @@ const Wave = () => {
            }
            
            .block_89 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 26.7s;
              position: absolute;
              border: 1px solid #139139;
@@ -1182,7 +1182,7 @@ const Wave = () => {
            }
            
            .block_90 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 27s;
              position: absolute;
              border: 1px solid #139139;
@@ -1194,7 +1194,7 @@ const Wave = () => {
            }
            
            .block_91 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 27.3s;
              position: absolute;
              border: 1px solid #139139;
@@ -1206,7 +1206,7 @@ const Wave = () => {
            }
            
            .block_92 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 27.6s;
              position: absolute;
              border: 1px solid #139139;
@@ -1218,7 +1218,7 @@ const Wave = () => {
            }
            
            .block_93 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 27.9s;
              position: absolute;
              border: 1px solid #139139;
@@ -1230,7 +1230,7 @@ const Wave = () => {
            }
            
            .block_94 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 28.2s;
              position: absolute;
              border: 1px solid #139139;
@@ -1242,7 +1242,7 @@ const Wave = () => {
            }
            
            .block_95 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 28.5s;
              position: absolute;
              border: 1px solid #139139;
@@ -1254,7 +1254,7 @@ const Wave = () => {
            }
            
            .block_96 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 28.8s;
              position: absolute;
              border: 1px solid #139139;
@@ -1266,7 +1266,7 @@ const Wave = () => {
            }
            
            .block_97 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 29.1s;
              position: absolute;
              border: 1px solid #139139;
@@ -1278,7 +1278,7 @@ const Wave = () => {
            }
            
            .block_98 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 29.4s;
              position: absolute;
              border: 1px solid #139139;
@@ -1290,7 +1290,7 @@ const Wave = () => {
            }
            
            .block_99 {
-             animation: wave infinite 30s ease-in-out;
+             animation: wave infinite 20s ease-in-out;
              animation-delay: 29.7s;
              position: absolute;
              border: 1px solid #139139;
@@ -1302,8 +1302,8 @@ const Wave = () => {
            }
            
            .block_100 {
-             animation: wave infinite 30s ease-in-out;
-             animation-delay: 30s;
+             animation: wave infinite 20s ease-in-out;
+             animation-delay: 20s;
              position: absolute;
              border: 1px solid #139139;
              margin-top: -25px;
