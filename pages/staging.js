@@ -24,7 +24,7 @@ const minor = () => (
       description={'A brief account of a person’s education, qualifications, and previous experience, typically sent with a job application.'}
       borderColor={'skyblue'}
       skillBadges={['resume', 'PDF', 'legacy media']}
-      URLs={['../static/frank-gunsch-webdev-resume.pdf']}
+      URLs={['../static/Franks-Resume.pdf']}
       anchorTexts={['View Resume']}
     />
 
@@ -42,7 +42,7 @@ const minor = () => (
       description={'How fast can you browser execute 1,000,000 empty for loops?'}
       borderColor={'skyblue'}
       skillBadges={['jquery', 'sass', 'HTML5Boilerplate']}
-      URLs={['https://codepen.io/Yonkai/', 'https://yonkai.github.io/bogoloops/']}
+      URLs={['https://github.com/Yonkai/bogoloops', 'https://yonkai.github.io/bogoloops/']}
       anchorTexts={['View on my Github', 'View Live']}
     />
 
