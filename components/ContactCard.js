@@ -70,7 +70,7 @@ const ContactCard = (props) => {
               }
       
               input:focus, textarea:focus{
-                border:1px solid purple;  
+                border:5px solid purple;  
               }
       
               button:focus{
