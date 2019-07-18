@@ -2,7 +2,6 @@ const SimpleIntroCard = () => {
   return (
     <div className='faking-normal-flow'>
       <h1>Hello! I'm Frank, A <span>full stack web developer</span> from Poughkeepsie, New York.</h1>
-
       <picture>
         <img
           src='../static/hero-1-srcset/hero-1-cropped_r7eag0_c_scale,w_200.png'
@@ -38,7 +37,6 @@ const SimpleIntroCard = () => {
                 border-radius:100%;
                 filter: opacity(75%);
               }
-
               @media (max-width: 370px) {
                 picture{
                   display:none;
@@ -48,5 +46,4 @@ const SimpleIntroCard = () => {
     </div>
   )
 }
-
 export default SimpleIntroCard
