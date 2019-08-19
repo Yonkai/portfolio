@@ -36,7 +36,6 @@ const ContentCard = (props) => {
                 line-height:1.4;
                 margin:auto;
                 margin-top:10px;
-                background-image:url('../static/${props.imagePath}');
                 background-size:cover;
                 background-position:top;
             }

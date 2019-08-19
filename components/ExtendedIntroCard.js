@@ -34,7 +34,6 @@ const ExtendedIntroCard = (props) => {
                 margin:auto;
                 margin-top:20px;
                 box-shadow:0px 0px 4px 4px;
-                background-image:url('../static/${props.imagePath}');
                 background-size:cover;
                 background-position:center;
             }
