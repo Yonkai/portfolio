@@ -1,5 +1,8 @@
 import ContentCard from './ContentCard'
 
+// UI Theme
+import theme from '../theme.js'
+
 const ContactCard = (props) => {
   return (
     <div>
@@ -33,7 +36,7 @@ const ContactCard = (props) => {
                 padding: 12px 20px;
                 margin: 8px 0;
                 display: inline-block;
-                border: 5px solid #ccc;
+                border: 3px solid ${theme.border.color};
                 box-sizing: border-box;
               }
       
@@ -43,7 +46,7 @@ const ContactCard = (props) => {
               padding: 12px 20px;
               margin: 8px 0;
               display: inline-block;
-              border: 5px solid #ccc;
+              border: 3px solid ${theme.border.color};
               box-sizing: border-box;
               }
       
@@ -52,9 +55,8 @@ const ContactCard = (props) => {
                 color: white;
                 padding: 14px 20px;
                 margin: 8px 0;
-                border: 5px solid  #ccc;
+                border: 3px solid ${theme.border.color};
                 cursor: pointer;
-                background-color: #fff8ef;
                 color:black;
               }
       
@@ -62,7 +64,7 @@ const ContactCard = (props) => {
               button {
                 width: 100%;
                 background-color: white;
-                border:5px solid green;
+                border: 3px solid ${theme.border.color};
                 color: #011;
                 padding: 14px 20px;
                 margin: 8px 0;
@@ -70,16 +72,16 @@ const ContactCard = (props) => {
               }
       
               input:focus, textarea:focus{
-                border:5px solid purple;  
+                border: 3px solid ${theme.border.color};
               }
       
               button:focus{
-                background-color:lightgreen;  
+                background-color:rgba(0,0,100,.1);  
               }
       
               /* Add a background color to the submit button on mouse-over */
               button:hover{
-                background-color: lightgreen;
+                background-color: rgba(0,0,100,.1);
               }
             
             `}

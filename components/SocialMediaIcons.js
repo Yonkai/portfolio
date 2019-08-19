@@ -18,7 +18,7 @@ const SocialMediaIcons = (props) => {
              margin-right:10px;
          }
          .icon:hover{
-            background:rgba(252,176,29,.8);
+            // background:rgba(252,176,29,.8);
             border-radius:100%;
          }
         `}

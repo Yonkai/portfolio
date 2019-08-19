@@ -14,19 +14,19 @@ const SimpleIntroCard = () => {
                 box-sizing:border-box;
                 width: 100%;
                 height: 400px;
-                border:solid rgba(0,0,0,0.3) 5px;
-                background-color:rgba(30,0,0,0.2);
-                border-left:solid black 20px;
-                border-right:solid black 20px;
+                border:solid rgba(0,0,0,0.0) 1px;
+                // background-color:rgba(30,0,0,0.2);
+                // border-left:solid black 20px;
+                // border-right:solid black 20px;
               }
               h1{
                 margin-top:90px;
                 font-size:30px;
-                color:rgb(250,250,250);
+                color:#131313;
                 text-align:center;
               }
               span{
-                background: linear-gradient(90deg, rgba(252,176,69,.5) 0%, rgba(252,176,29,.4) 25%, rgba(253,160,49,.4) 50%, rgba(203,140,69,.5) 76%, rgba(252,176,69,.4) 100%);
+                background:rgba(0,0,233,.3);
               }
               picture{
                 margin-top:-10px;
@@ -35,7 +35,7 @@ const SimpleIntroCard = () => {
               }
               img{
                 border-radius:100%;
-                filter: opacity(75%);
+                filter: opacity(90%);
               }
               @media (max-width: 370px) {
                 picture{

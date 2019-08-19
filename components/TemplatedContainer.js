@@ -1,3 +1,6 @@
+// UI Theme
+import theme from '../theme.js'
+
 const TemplateContainer = (props) => {
   return (
     <div className='flex-container-templated-container'>
@@ -15,7 +18,7 @@ const TemplateContainer = (props) => {
                 .templated-container{
                     box-sizing:border-box;
                     width:95%;
-                    border:solid ${props.borderColor} 5px;
+                    border:solid ${theme.border.color} ${theme.border.width};
                     background-color:rgb(250,250,250);
                     font-size:18px;
                     padding:${props.padding};
@@ -39,7 +42,7 @@ const TemplateContainer = (props) => {
                 
                 // inspiration for anchor styling: https://css-tricks.com/having-fun-with-link-hover-effects/
                 a {
-                    background: linear-gradient(to bottom,#ff990052 0%,#ffedd3 100%);
+                    background: ${theme.anchors.gradient};
                     background-position: 0 100%;
                     background-repeat: repeat-x;
                     background-size: 30px 30px;
@@ -49,7 +52,7 @@ const TemplateContainer = (props) => {
                 }
                 
                 a:hover, a:focus{
-                    background: linear-gradient(to bottom,#ff990052 0%,#ff110080 100%);
+                    background: ${theme.anchors.gradient};
                     background-position: 0 100%;
                     background-size: 200px 0px;
                     background-repeat: repeat-x;

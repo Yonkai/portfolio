@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import theme from '../theme.js'
 
 const ViewMoreButtonHomepage = (props) => {
   return (
@@ -16,7 +17,7 @@ const ViewMoreButtonHomepage = (props) => {
         // inspiration for anchor styling: https://css-tricks.com/having-fun-with-link-hover-effects/
         a {
             width:100%;
-            background: linear-gradient(to bottom,#ff990052 0%,#ffedd3 100%);
+            background:linear-gradient(to bottom,rgba(0,0,222,.1) 0%,rgba(0,0,222,.2) 100%);
             background-position: 0 100%;
             background-repeat: repeat-x;
             background-size: 50px 50px;
@@ -26,11 +27,11 @@ const ViewMoreButtonHomepage = (props) => {
             transition:background-size .5s;
             margin:auto;
             text-align:center;
-            border:5px solid orange;
+            border:${theme.border.width} solid slateblue;
         }
         
         a:hover,a:focus{
-            background: linear-gradient(to bottom,#ff990052 0%,#ff110080 100%);
+            background:linear-gradient(to bottom,rgba(0,0,222,.1) 0%,rgba(0,0,222,.2) 100%);
             background-position: 0 100%;
             background-size: 200px 0px;
             background-repeat: repeat-x;

@@ -1,6 +1,8 @@
 import Link from 'next/link'
 import React, { Component } from 'react'
 
+import theme from '../theme.js'
+
 // BUG: Race conditions with state? Or more likely with the uncontrolled component
 class NavMenu extends Component {
   constructor (props) {
@@ -115,7 +117,7 @@ class NavMenu extends Component {
                 }
         
                 .dropdown-menu{
-                    background:#FFF;
+                    background:#EEF;
                     padding:5px;
                     box-shadow:1px 2px 3px rbga(0,0,0,0.3);
                 }
@@ -302,7 +304,7 @@ class NavMenu extends Component {
                   }
 
                   .large-screen-menu a:hover{
-                    border-bottom:5px solid rgba(253,160,49,1);
+                    border-bottom:5px solid rgba(0,40,209,.5);
                     transition:border-bottom .2s ease-in-out;
                   }
               }
