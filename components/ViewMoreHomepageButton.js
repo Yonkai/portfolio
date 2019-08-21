@@ -20,7 +20,7 @@ const ViewMoreButtonHomepage = (props) => {
             background:linear-gradient(to bottom,rgba(0,0,222,.1) 0%,rgba(0,0,222,.2) 100%);
             background-position: 0 100%;
             background-repeat: repeat-x;
-            background-size: 50px 50px;
+            background-size: 60px 60px;
             font-size:35px;
             color: #000;
             text-decoration: none;
