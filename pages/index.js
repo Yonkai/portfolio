@@ -57,7 +57,7 @@ const Index = () => (
       description={'A brief account of a person’s education, qualifications, and previous experience, typically sent with a job application.'}
       borderColor={'skyblue'}
       skillBadges={['resume', 'PDF', 'classical media']}
-      URLs={['../static/Franks-Resume.pdf']}
+      URLs={['../static/Frank-Gunsch-CV.pdf']}
       anchorTexts={['View Resume']}
     />
 
