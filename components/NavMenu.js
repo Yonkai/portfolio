@@ -1,9 +1,6 @@
 import Link from 'next/link'
 import React, { Component } from 'react'
 
-import theme from '../theme.js'
-
-// BUG: Race conditions with state? Or more likely with the uncontrolled component
 class NavMenu extends Component {
   constructor (props) {
     super(props)
