@@ -33,6 +33,7 @@ const contact = () => (
           // Forest theme
           background-color:${theme.body.color};
           font-family: 'Anaheim', sans-serif;
+          font-display: fallback; /* Define how the browser behaves during download */
         }`}
     </style>
 

@@ -61,12 +61,22 @@ const minor = () => (
       anchorTexts={['View on my Github', 'View Live']}
     />
 
+    <ContentCard
+      title={'Ironman generator'}
+      description={'(WIP) Application that lets people generate "fantasy" game characters.'}
+      borderColor={'skyblue'}
+      skillBadges={['css-grid', 'React', 'javascript', 'npm', 'LoDash', 'Data Scraping']}
+      URLs={['https://github.com/Yonkai/ironman-challenge-maker']}
+      anchorTexts={['View on my Github']}
+    />
+
     <style global jsx>
       {`body{
           margin:${theme.body.margin};
           // Forest theme
           background-color:${theme.body.color};
           font-family: 'Anaheim', sans-serif;
+          font-display: fallback; /* Define how the browser behaves during download */
         }`}
     </style>
   </>
