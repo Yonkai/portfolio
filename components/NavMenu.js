@@ -26,7 +26,7 @@ class NavMenu extends Component {
   }
   render () {
     return (
-
+      {/* TODO:Fix tab indexing */}
       <nav className='nav-container'>
         <nav className='dropdown-menu'>
           {/* Uncontrolled component because of the form state */}
