@@ -14,7 +14,6 @@ class NavMenu extends Component {
   handleKeyPress (event) {
     if (event.key === 'Enter') {
       this.checkBoxRef.current.click()
-      event.stopPropagation()
       this.toggleMenuBool()
     }
   }
@@ -29,9 +28,9 @@ class NavMenu extends Component {
       <nav className='nav-container'>
         <nav className='dropdown-menu'>
           {/* Uncontrolled component because of the form state */}
-          <input ref={this.checkBoxRef} onClick={this.toggleMenuBool} defaultChecked={this.state.menuToggle} type='checkbox' id='menu' autoComplete='off' />
+          <input ref={this.checkBoxRef} defaultChecked={this.state.menuToggle} type='checkbox' id='menu' autoComplete='off' />
           <label htmlFor='menu'>
-            <div className='nav-icon2-container' tabIndex='0' onKeyPress={this.handleKeyPress}>
+            <div onClick={this.toggleMenuBool} onKeyPress={this.handleKeyPress} className='nav-icon2-container' tabIndex='0'>
               {/* https://codepen.io/designcouch/pen/Atyop?editors=0100 */}
               <div id='nav-icon2' className={this.state.menuToggle ? 'open' : 'close'}>
                 <span />
@@ -47,23 +46,23 @@ class NavMenu extends Component {
             <ul className='menu-content-item'>
               <li>
                 <Link href='/'>
-                  <a>Home</a>
+                  <a tabIndex={this.state.menuToggle ? '0' : '-1'}>Home</a>
                 </Link>
               </li>
               <li>
                 <Link prefetch href='/committed'>
-                  <a>Commited</a>
+                  <a tabIndex={this.state.menuToggle ? '0' : '-1'}>Commited</a>
                 </Link>
               </li>
 
               <li>
                 <Link prefetch href='/staging'>
-                  <a>Staging</a>
+                  <a tabIndex={this.state.menuToggle ? '0' : '-1'}>Staging</a>
                 </Link>
               </li>
               <li>
                 <Link prefetch href='/contact'>
-                  <a>Contact</a>
+                  <a tabIndex={this.state.menuToggle ? '0' : '-1'}>Contact</a>
                 </Link>
               </li>
             </ul>
@@ -266,7 +265,7 @@ class NavMenu extends Component {
                   display:none;
                 }
 
-                //Switch navigatio menu for larger screens, reserve hamburger menu for smaller screens
+                //Switch navigation menu for larger screens, reserve hamburger menu for smaller screens
                 @media (min-width: 700px) {
                   .dropdown-menu{
                     display:none;
@@ -299,7 +298,7 @@ class NavMenu extends Component {
                     background:rgba(0,20,40,0.7);
                   }
 
-                  .large-screen-menu a:hover{
+                  .large-screen-menu a:hover,.large-screen-menu a:focus {
                     border-bottom:5px solid rgba(0,40,209,.5);
                     transition:border-bottom .2s ease-in-out;
                   }
