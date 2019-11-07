@@ -28,7 +28,7 @@ class NavMenu extends Component {
       <nav className='nav-container'>
         <nav className='dropdown-menu'>
           {/* Uncontrolled component because of the form state */}
-          <input ref={this.checkBoxRef} defaultChecked={this.state.menuToggle} type='checkbox' id='menu' autoComplete='off' />
+          <input ref={this.checkBoxRef} type='checkbox' id='menu' autoComplete='off' />
           <label htmlFor='menu'>
             <div onClick={this.toggleMenuBool} onKeyPress={this.handleKeyPress} className='nav-icon2-container' tabIndex='0'>
               {/* https://codepen.io/designcouch/pen/Atyop?editors=0100 */}
