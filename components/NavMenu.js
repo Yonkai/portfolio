@@ -46,7 +46,7 @@ class NavMenu extends Component {
             <ul className='menu-content-item'>
               <li>
                 <Link href='/'>
-                  <a tabIndex={this.state.menuToggle ? '0' : '-1'}>Home</a>
+                  <a id='firstAnchor' tabIndex={this.state.menuToggle ? '0' : '-1'}>Home</a>
                 </Link>
               </li>
               <li>
@@ -108,13 +108,21 @@ class NavMenu extends Component {
                 }
 
                 .menu-content-item li a{
-                  text-align:center;
+                  text-align: center;
+                  margin-left: -99vw;
+                  margin-right: -99vw;
+                  padding-left: 99vw;
+                  padding-right: 99vw;
+                  padding-top: 20px;
+                  padding-bottom: 20px;
+                  border-bottom: 1px solid rgba(0, 20, 40, 0.7);
+                  box-shadow: 0 0 black;
                 }
         
                 .dropdown-menu{
                     background:#EEF;
                     padding:5px;
-                    box-shadow:1px 2px 3px rbga(0,0,0,0.3);
+                    padding-bottom:0px;
                 }
         
                 .dropdown-menu ul{
@@ -137,7 +145,7 @@ class NavMenu extends Component {
 
                 .dropdown-menu ul li{
                     list-style-type:none;
-                    padding:10px;
+                    padding:0px;
                 }
         
                 input#menu{
@@ -264,6 +272,12 @@ class NavMenu extends Component {
                 .large-screen-nav-bar{
                   display:none;
                 }
+
+                #firstAnchor{
+                  border-top: 1px solid rgba(0,20,40,.7);
+                }
+
+
 
                 //Switch navigation menu for larger screens, reserve hamburger menu for smaller screens
                 @media (min-width: 700px) {
