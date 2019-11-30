@@ -10,7 +10,7 @@ const ExtendedIntroCard = (props) => {
         <h2>Introduction</h2>
         <p>
       Let me give you a tour! In the <Link href='/committed'><a>committed section</a></Link> you
-      can see some my more major projects. In the <Link href='/staging'><a>staging section</a></Link> you
+      can see some of my more major projects. In the <Link href='/staging'><a>staging section</a></Link> you
       can find some more minor projects and other programming-related content. Enjoy your stay.
         </p>
         <p>
