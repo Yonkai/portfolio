@@ -1,4 +1,5 @@
 Sorting feature: Add a sorting feature for the staging section based on
 tags/badges.
 
-TODO: Fix flash of unstyled content when the page loads.
+TODO: Add hyperlinks to badges
+TODO: Images.
