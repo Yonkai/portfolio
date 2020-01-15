@@ -40,6 +40,7 @@ const Index = () => (
       skillBadges={['RESTful', 'axios', 'expressjs', 'mysql', 'javascript', 'photoshop', 'cssgrid', 'nextjs', 'nginx', 'ubuntu', 'pm2', 'react']}
       URLs={['https://github.com/Yonkai/BBS', 'https://www.daydreaming.me/']}
       anchorTexts={['View on my Github', 'View Live']}
+      image={'../static/CardImages/BBS2.png'}
     />
 
     <ContentCard
@@ -50,6 +51,18 @@ const Index = () => (
       URLs={['https://github.com/Yonkai/visualized-sorting-algorithms-in-javascript',
         'https://yonkai.github.io/visualized-sorting-algorithms-in-javascript/']}
       anchorTexts={['View on my Github', 'View Live']}
+      image={'../static/CardImages/Color_Wheel_Wide.png'}
+    />
+
+    <ContentCard
+      title={'SVG Quiz Generator'}
+      description={'Generates Geography Quizes based on SVG files, example is using a custom made SVG map of a fantasy world.'}
+      borderColor={'orangered'}
+      skillBadges={['html', 'css', 'javascript', 'Inkscape', 'Create-React-App', 'Lodash', 'SVG', 'react-maps', 'css-grid']}
+      URLs={['https://github.com/Yonkai/map-quiz-game-generator',
+        'https://osrsmapquiz.com/']}
+      anchorTexts={['View on my Github', 'View Live']}
+      image={'../static/CardImages/SVG.png'}
     />
 
     <ContentCard

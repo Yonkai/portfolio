@@ -1,3 +1,4 @@
+// Used for navigation
 import Link from 'next/link'
 
 // UI Theme
@@ -48,7 +49,7 @@ const ExtendedIntroCard = (props) => {
                 background-position:center;
             }
             
-            // inspiration for anchor styling: https://css-tricks.com/having-fun-with-link-hover-effects/
+            /* inspiration for anchor styling: https://css-tricks.com/having-fun-with-link-hover-effects/ */
               a {
                 background:${theme.anchors.gradient};
                 background-position: 0 100%;

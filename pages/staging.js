@@ -70,6 +70,15 @@ const minor = () => (
       anchorTexts={['View on my Github']}
     />
 
+    <ContentCard
+      title={'SVG Quiz Generator'}
+      description={'Generates Geography Quizes based on SVG files, example is using a custom made SVG map of a fantasy world.'}
+      borderColor={'orangered'}
+      skillBadges={['html', 'css', 'javascript', 'Inkscape', 'Create-React-App', 'Lodash', 'SVG', 'react-maps', 'css-grid']}
+      URLs={['https://github.com/Yonkai/map-quiz-game-generator',
+        'https://osrsmapquiz.com/']}
+      anchorTexts={['View on my Github', 'View Live']}
+    />
     <style global jsx>
       {`body{
           margin:${theme.body.margin};

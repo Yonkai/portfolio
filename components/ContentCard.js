@@ -10,9 +10,10 @@ const ContentCard = (props) => {
         <h2>
           {props.title}
         </h2>
-        {/* T. operator to check for existence */}
+        {/* Opitional Image */}
+        {props.image ? <img className='card-image' src={props.image}/> : null}
+        {/* Ternary operator to check for existence */}
         {props.skillBadges ? props.skillBadges.map((name, index) => <div key={index} className='skill-badge'>{name}</div>) : null}
-
         <p>
           {props.description}
         </p>
@@ -52,7 +53,7 @@ const ContentCard = (props) => {
               color:#131313;
             }
             
-            // inspiration for anchor styling: https://css-tricks.com/having-fun-with-link-hover-effects/
+            /* inspiration for anchor styling: https://css-tricks.com/having-fun-with-link-hover-effects/ */
             a {
                 background: linear-gradient(to bottom,rgba(0,0,222,.1) 0%,rgba(0,0,222,.2) 100%);
                 background-position: 0 100%;
@@ -86,6 +87,11 @@ const ContentCard = (props) => {
               font-variant:small-caps;
             }
             
+            /* basic responsive CSS for large images */
+            .card-image{
+              height: auto;
+              width: 100%;
+            }
             `}
         </style>
       </section>
