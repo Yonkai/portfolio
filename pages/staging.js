@@ -62,7 +62,7 @@ const minor = () => (
     />
 
     <ContentCard
-      title={'Ironman generator'}
+      title={'Ironman Generator'}
       description={'(WIP) Application that lets people generate "fantasy" game characters.'}
       borderColor={'skyblue'}
       skillBadges={['css-grid', 'React', 'javascript', 'npm', 'LoDash', 'Data Scraping']}
@@ -78,6 +78,16 @@ const minor = () => (
       URLs={['https://github.com/Yonkai/map-quiz-game-generator',
         'https://osrsmapquiz.com/']}
       anchorTexts={['View on my Github', 'View Live']}
+    />
+
+    <ContentCard
+      title={'Galaxy Names API'}
+      description={'Selecting random and semi-random galaxy names, this API is out of this world.'}
+      borderColor={'orangered'}
+      skillBadges={['javascript', 'npm', 'NodeJS']}
+      URLs={['https://www.npmjs.com/package/galaxies-data',
+        'https://github.com/Yonkai/random-galaxy-name']}
+      anchorTexts={['View on NPM', 'View on Github']}
     />
     <style global jsx>
       {`body{
