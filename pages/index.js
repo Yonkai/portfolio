@@ -36,7 +36,6 @@ const Index = () => (
     <ContentCard
       title={'Bulletin Board System'}
       description={`An anonymous text board where users can talk about a variety of subjects.`}
-      borderColor={'orangered'}
       skillBadges={['RESTful', 'axios', 'expressjs', 'mysql', 'javascript', 'photoshop', 'cssgrid', 'nextjs', 'nginx', 'ubuntu', 'pm2', 'react']}
       URLs={['https://github.com/Yonkai/BBS', 'https://www.daydreaming.me/']}
       anchorTexts={['View on my Github', 'View Live']}
@@ -46,7 +45,6 @@ const Index = () => (
     <ContentCard
       title={'Sorting Algorithm Visualizer'}
       description={'Visualizes sorting algorithms through a color wheel.'}
-      borderColor={'orangered'}
       skillBadges={['html', 'css', 'javascript', 'jquery']}
       URLs={['https://github.com/Yonkai/visualized-sorting-algorithms-in-javascript',
         'https://yonkai.github.io/visualized-sorting-algorithms-in-javascript/']}
@@ -57,7 +55,6 @@ const Index = () => (
     <ContentCard
       title={'SVG Quiz Generator'}
       description={'Generates Geography Quizes based on SVG files, example is using a custom made SVG map of a fantasy world.'}
-      borderColor={'orangered'}
       skillBadges={['html', 'css', 'javascript', 'Inkscape', 'Create-React-App', 'Lodash', 'SVG', 'react-maps', 'css-grid']}
       URLs={['https://github.com/Yonkai/map-quiz-game-generator',
         'https://osrsmapquiz.com/']}
@@ -68,9 +65,8 @@ const Index = () => (
     <ContentCard
       title={'Résumé'}
       description={'A brief account of a person’s education, qualifications, and previous experience, typically sent with a job application.'}
-      borderColor={'skyblue'}
       skillBadges={['resume', 'PDF', 'classical media']}
-      URLs={['../static/Frank-Gunsch-CV.pdf']}
+      URLs={['../static/Frank Gunsch - Resume 2020.pdf']}
       anchorTexts={['View Resume']}
     />
 

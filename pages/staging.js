@@ -28,16 +28,14 @@ const minor = () => (
     <ContentCard
       title={'Résumé'}
       description={'A brief account of a person’s education, qualifications, and previous experience, typically sent with a job application.'}
-      borderColor={'skyblue'}
       skillBadges={['resume', 'PDF', 'Classical media']}
-      URLs={['../static/Frank-Gunsch-CV.pdf']}
+      URLs={['../static/Frank Gunsch - Resume 2020.pdf']}
       anchorTexts={['View Resume']}
     />
 
     <ContentCard
       title={'Codepen'}
       description={'I use codepen to test code and make silly animations.'}
-      borderColor={'skyblue'}
       skillBadges={['canvasjs', 'css-animations']}
       URLs={['https://codepen.io/Yonkai/']}
       anchorTexts={['View my Codepen']}
@@ -46,7 +44,6 @@ const minor = () => (
     <ContentCard
       title={'Bogoloops'}
       description={'How fast can you browser execute 1,000,000 empty for loops?'}
-      borderColor={'skyblue'}
       skillBadges={['jquery', 'sass', 'HTML5Boilerplate']}
       URLs={['https://github.com/Yonkai/bogoloops', 'https://yonkai.github.io/bogoloops/']}
       anchorTexts={['View on my Github', 'View Live']}
@@ -55,7 +52,6 @@ const minor = () => (
     <ContentCard
       title={'Infinite Monkey Grid'}
       description={'If you give a monkey a typewriter eventually it will write shakespear. Generates random data.'}
-      borderColor={'skyblue'}
       skillBadges={['css-grid', 'HTML5Boilerplate', 'javascript']}
       URLs={['https://github.com/Yonkai/infinitegrid', 'https://yonkai.github.io/infinitegrid/']}
       anchorTexts={['View on my Github', 'View Live']}
@@ -64,7 +60,6 @@ const minor = () => (
     <ContentCard
       title={'Ironman Generator'}
       description={'(WIP) Application that lets people generate "fantasy" game characters.'}
-      borderColor={'skyblue'}
       skillBadges={['css-grid', 'React', 'javascript', 'npm', 'LoDash', 'Data Scraping']}
       URLs={['https://github.com/Yonkai/ironman-challenge-maker']}
       anchorTexts={['View on my Github']}
@@ -73,7 +68,6 @@ const minor = () => (
     <ContentCard
       title={'SVG Quiz Generator'}
       description={'Generates Geography Quizes based on SVG files, example is using a custom made SVG map of a fantasy world.'}
-      borderColor={'orangered'}
       skillBadges={['html', 'css', 'javascript', 'Inkscape', 'Create-React-App', 'Lodash', 'SVG', 'react-maps', 'css-grid']}
       URLs={['https://github.com/Yonkai/map-quiz-game-generator',
         'https://osrsmapquiz.com/']}
@@ -83,7 +77,6 @@ const minor = () => (
     <ContentCard
       title={'Galaxy Names API'}
       description={'Selecting random and semi-random galaxy names, this API is out of this world.'}
-      borderColor={'orangered'}
       skillBadges={['javascript', 'npm', 'NodeJS']}
       URLs={['https://www.npmjs.com/package/galaxies-data',
         'https://github.com/Yonkai/random-galaxy-name']}
