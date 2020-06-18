@@ -56,6 +56,39 @@ const books = () => (
       image={'../static/BookImages/Hidden-Code-Edits.png'}
     />
 
+    <ContentCard
+      title={'Deep Work by Cal Newport'}
+      book
+      description={`Cal Newport is a computer science professor with experience at MIT, in his book 
+      he goes over how he managed to both increase the productivity of his academic life while 
+      experiencing an increasingly busy home life by structuring his day based on focusing intensely
+      on niche subjects while avoiding small distractions and using proper scheduling, akin to
+      reducing the context switches of an OS to further performance of the CPU. He talks about
+      training your mind to avoid shallow distractions like the encroaching burdens of email
+      and social media and their modern hyper addictive natures. He also studies and shows
+      the habits and routines of successful people along the way. I highlighted probably 
+      a half the book and have begun to integrate the suggested habits into my own day-to-day
+      life to my own emotional and mental benefits.`}
+      skillBadges={['Scheduling', 'Self care']}
+      URLs={['https://www.calnewport.com/books/deep-work/']}
+      anchorTexts={['See Book Page']}
+      image={'../static/BookImages/Book-Deep-Work-With-Edit.png'}
+    />
+
+    <ContentCard
+      title={'Cracking the Coding Interview Gayle Laakmann McDowell'}
+      book
+      description={`Despite never really experiencing any of the questions in this book
+       in my own numerous coding interviews for whatever reasons, I still found this book 
+       super helpful in understanding the quintessential academics that undergrads experience 
+       and it has benefited me quite a bit and sent me down many a rabbit holes, especially the
+       sections on Big O Notation.`}
+      skillBadges={['Computer Science']}
+      URLs={['http://www.crackingthecodinginterview.com/']}
+      anchorTexts={['See Book Page']}
+      image={'../static/BookImages/Cracking-The-Coding-Interview-Edit.png'}
+    />
+
     <style global jsx>
       {`body{
           margin:${theme.body.margin};
