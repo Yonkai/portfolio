@@ -22,6 +22,7 @@ const books = () => (
     {/* major */}
     <NavMenu />
     <FakeFlow />
+    {/* Spaces automatically absorbed in html. */}
     <ContentCard
       title={'Grokking Algorithms by Aditya Bhargava'}
       book
@@ -36,6 +37,23 @@ const books = () => (
       URLs={['https://www.amazon.com/Grokking-Algorithms-illustrated-programmers-curious/dp/1617292230']}
       anchorTexts={['See On Amazon']}
       image={'../static/BookImages/Bhargava-Algorithms-Crop-2.png'}
+    />
+
+    <ContentCard
+      title={'Code: The Hidden Language of Computer Hardware and Software by Charles Petzold'}
+      book
+      description={`An absolutely incredible book that builds up the step-by-step process of building
+       a computer alongside the fascinating and thrilling history of these events. 
+       Basic first principles such as ancient encoding systems, electricity, chemistry, 
+       and circuits are covered, leading into more “advanced” subjects such as logic gates, 
+       adding machines, feedback loops, flip-flops, memory assemblages, and finally proceeding 
+       onto microprocessors, automation, bus systems, operating systems, peripherals, and coding 
+       languages like assembly and C. I completely mentally nuked this book in 3 days 
+      and loved it and think every beginner programmer should read it.`}
+      skillBadges={['Computers 101']}
+      URLs={['https://www.amazon.com/Code-Language-Computer-Developer-Practices-ebook/dp/B00JDMPOK2/ref=sr_1_2?dchild=1&keywords=code+book&qid=1592445361&s=digital-text&sr=1-2']}
+      anchorTexts={['See On Amazon']}
+      image={'../static/BookImages/Hidden-Code-Edits.png'}
     />
 
     <style global jsx>
