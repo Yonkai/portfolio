@@ -61,6 +61,11 @@ class NavMenu extends Component {
                 </Link>
               </li>
               <li>
+                <Link prefetch href='/books'>
+                  <a tabIndex={this.state.menuToggle ? '0' : '-1'}>My Books</a>
+                </Link>
+              </li>
+              <li>
                 <Link prefetch href='/contact'>
                   <a tabIndex={this.state.menuToggle ? '0' : '-1'}>Contact</a>
                 </Link>
@@ -79,6 +84,9 @@ class NavMenu extends Component {
             </Link>
             <Link prefetch href='/staging'>
               <a>Staging</a>
+            </Link>
+            <Link prefetch href='/books'>
+              <a>My Books</a>
             </Link>
             <Link prefetch href='/contact'>
               <a>Contact</a>
@@ -294,7 +302,7 @@ class NavMenu extends Component {
                   .large-screen-menu{
                     display:grid;
                     width:100%;
-                    grid-template-columns:1fr 1fr 1fr 1fr;
+                    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
                     font-size:20px;
                     justify-items:center;
                     background:rgba(0,0,0,0.0);

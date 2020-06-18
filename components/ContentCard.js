@@ -11,7 +11,7 @@ const ContentCard = (props) => {
           {props.title}
         </h2>
         {/* Opitional Image */}
-        {props.image ? <img className='card-image' src={props.image}/> : null}
+        {props.image ? <img className='card-image' src={props.image} /> : null}
         {/* Ternary operator to check for existence */}
         {props.skillBadges ? props.skillBadges.map((name, index) => <div key={index} className='skill-badge'>{name}</div>) : null}
         <p>
@@ -47,6 +47,7 @@ const ContentCard = (props) => {
             h2{
               margin: 0;
               color:#131313;
+              ${props.book ? `font-style:italic;` : ``}
             }
             p{
               margin:5px;
