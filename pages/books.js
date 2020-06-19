@@ -76,7 +76,7 @@ const books = () => (
     />
 
     <ContentCard
-      title={'Cracking the Coding Interview Gayle Laakmann McDowell'}
+      title={'Cracking the Coding Interview Gayle by Laakmann McDowell'}
       book
       description={`Despite never really experiencing any of the questions in this book
        in my own numerous coding interviews for whatever reasons, I still found this book 
@@ -87,6 +87,18 @@ const books = () => (
       URLs={['http://www.crackingthecodinginterview.com/']}
       anchorTexts={['See Book Page']}
       image={'../static/BookImages/Cracking-The-Coding-Interview-Edit.png'}
+    />
+
+    <ContentCard
+      title={'Why We Sleep by Matthew Walker'}
+      book
+      description={`A book about sleeping, something that before reading I was, 
+      to my surprise, absolutely terrible at, I learned a fair bit of trivia along the way. 
+      This book has improved my life massively.`}
+      skillBadges={['Sleep 101']}
+      URLs={['https://www.amazon.com/Why-We-Sleep-Unlocking-Dreams/dp/1501144324/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=']}
+      anchorTexts={['See Book']}
+      image={'../static/BookImages/Sleep-Edit.png'}
     />
 
     <style global jsx>
