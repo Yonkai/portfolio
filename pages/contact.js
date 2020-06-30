@@ -23,7 +23,7 @@ const contact = () => (
     <NavMenu />
     <FakeFlow />
     <ContactCard />
-    <TemplatedContainer borderColor={'orangered'} text={'fgunsch.webdev@gmail.com'}>
+    <TemplatedContainer borderColor={'orangered'} text={'fgunsch.webdev@gmail.com | github.com/yonkai'}>
       <SocialMediaIcons />
     </TemplatedContainer>
 

@@ -78,7 +78,7 @@ const Index = () => (
     </TemplatedContainer>
 
     {/* Pass in icons as child component, render with props.children, or pass in a component as a prop and render that. */}
-    <TemplatedContainer borderColor={'orangered'} text={'fgunsch.webdev@gmail.com'}>
+    <TemplatedContainer borderColor={'orangered'} text={'fgunsch.webdev@gmail.com | github.com/yonkai'}>
       <SocialMediaIcons />
     </TemplatedContainer>
     <style global jsx>
