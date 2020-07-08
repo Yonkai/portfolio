@@ -91,7 +91,9 @@ const ContentCard = (props) => {
             /* basic responsive CSS for large images */
             .card-image{
               height: auto;
-              width: 100%;
+              width: 84.5%;
+              margin-left:7.5%;
+              margin-right:7.5%;
             }
             `}
         </style>
