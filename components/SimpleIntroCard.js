@@ -1,7 +1,7 @@
 const SimpleIntroCard = () => {
   return (
     <div className='faking-normal-flow'>
-      <h1>Hello! I'm Frank, A <span>software developer</span> based in New York City.</h1>
+      <h1>Hello! I'm Frank, A <span>web developer</span>.</h1>
       <picture>
         <img
           src='../static/hero-1-srcset/hero-1-cropped_r7eag0_c_scale,w_200.png'
