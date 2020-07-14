@@ -62,7 +62,7 @@ class NavMenu extends Component {
               </li>
               <li>
                 <Link prefetch href='/books'>
-                  <a tabIndex={this.state.menuToggle ? '0' : '-1'}>My Books</a>
+                  <a tabIndex={this.state.menuToggle ? '0' : '-1'}>Books</a>
                 </Link>
               </li>
               <li>
@@ -86,7 +86,7 @@ class NavMenu extends Component {
               <a>Staging</a>
             </Link>
             <Link prefetch href='/books'>
-              <a>My Books</a>
+              <a>Books</a>
             </Link>
             <Link prefetch href='/contact'>
               <a>Contact</a>

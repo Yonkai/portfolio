@@ -7,7 +7,7 @@ import theme from '../theme.js'
 const books = () => (
   <>
     <Head>
-      <title>Book - Frank Gunsch's Reading List</title>
+      <title>Book - Frank Gunsch's Books</title>
       <meta name='description' content='Page for some books I have enjoyed.' />
       <meta name='author' content='Frank Gunsch' />
       <link href='https://fonts.googleapis.com/css?family=Anaheim&display=swap' rel='stylesheet' />
@@ -99,6 +99,33 @@ const books = () => (
       URLs={['https://www.amazon.com/Why-We-Sleep-Unlocking-Dreams/dp/1501144324/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=']}
       anchorTexts={['See Book']}
       image={'../static/BookImages/Sleep-Edit.png'}
+    />
+
+<ContentCard
+      title={'Hooked by Nir Eyal'}
+      book
+      description={`Hooked is a book that has given me a much deeper perspective into giving
+      superior UI/UX in my software and applications, but I also feel it has taught me about 
+      the darker side of the internet and how it can be so damn addictive alongside other things
+      like video games. This is a big reason I read the book “Deep Work”. On the ++ side however,
+      I now know how to utilize this addictive nature of software for my own and hopefully others benefits.
+      I highly recommend it to anyone that feels they spend too much time on the internet or wants to improve their relationship 
+      with software and feel like they’re not living in an episode of “Black Mirror”.`}
+      skillBadges={['UX','UI']}
+      URLs={['https://www.amazon.com/dp/B00HZY1N0K/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1']}
+      anchorTexts={['See Book']}
+      image={'../static/BookImages/hooked-with-edits.png'}
+    />
+
+
+<ContentCard
+      title={'The Power of Habit by Charles Duhigg'}
+      book
+      description={`Book about the automatic routines that we do and how they can be altered. Very cool.`}
+      skillBadges={['Habits']}
+      URLs={['https://www.amazon.com/dp/B007EJSMC8/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1']}
+      anchorTexts={['See Book']}
+      image={'../static/BookImages/power-of-habit-with-edits.png'}
     />
 
     <style global jsx>
