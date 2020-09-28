@@ -29,7 +29,7 @@ const minor = () => (
       title={'Résumé'}
       description={'A brief account of a person’s education, qualifications, and previous experience, typically sent with a job application.'}
       skillBadges={['resume', 'PDF', 'Classical media']}
-      URLs={['../static/Frank Gunsch - Resume 2020.pdf']}
+      URLs={['../static/Frank Gunsch (Software Developer).pdf']}
       anchorTexts={['View Resume']}
     />
 
